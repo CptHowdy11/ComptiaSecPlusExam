@@ -2,7 +2,17 @@
 
 Target: September 28, 2026 (year inferred from current project date). Course: Dion Training SY0-701.
 
-Status: research and specification complete for the initial pass; app and question bank are not implemented.
+Status: working pilot with 20 Fundamentals questions, course progress, cumulative selection, saved attempts, answer review, and backup import/export.
+
+## Try the app
+
+[Open the practice room](https://cpthowdy11.github.io/ComptiaSecPlusExam/)
+
+Choose **Start Fundamentals**, answer all 20 questions, then select **Submit all answers**. Feedback and source pages appear only after submission. Answers save in this browser; export a backup for another device. The pilot reuses the same 20 questions in shuffled order. Other section banks and full exams are not yet available.
+
+For local development, run `python -m http.server 8000 --directory app` from the project folder, then open `http://localhost:8000`. Do not open the HTML directly. Run `npm test` with Node.js installed. No dependency installation or API key is needed.
+
+GitHub Actions tests and publishes only `app/` to Pages on each main-branch push. Course source files are never included in the deployed artifact.
 
 ## Start here
 

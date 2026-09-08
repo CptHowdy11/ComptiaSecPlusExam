@@ -1,0 +1,7 @@
+import {test} from 'node:test';import assert from 'node:assert/strict';import {readFileSync} from 'node:fs';import {answered,correct,eligible,submit} from '../app/engine.js';
+const bank=JSON.parse(readFileSync(new URL('../app/questions.json',import.meta.url)));
+test('every pilot item has a valid source and options',()=>{assert.equal(bank.length,20);assert.equal(new Set(bank.map(q=>q.id)).size,20);for(const q of bank){assert.ok(q.source.page>=4&&q.source.page<=17);assert.ok(q.correct.every(id=>q.options.some(o=>o.id===id)));assert.deepEqual(q.required_sections,['content-01']);}});
+test('cannot submit an incomplete exam',()=>{assert.throws(()=>submit({questions:bank,answers:{}}));});
+test('multi-select requires exact set, not duplicates or extra choices',()=>{const q=bank.at(-1);assert.equal(answered(q,['2']),false);assert.equal(correct(q,['2','2']),false);assert.equal(correct(q,['2','3']),true);assert.equal(correct(q,['3','2']),true);assert.equal(correct(q,['0','2']),false);});
+test('unrelated studied sections never unlock questions',()=>{assert.equal(eligible(bank,['content-02']).length,0);assert.equal(eligible(bank,['content-01']).length,20);});
+test('submission freezes logical attempt and disallows resubmit',()=>{const a={questions:bank,answers:Object.fromEntries(bank.map(q=>[q.id,q.correct]))};const b=submit(a);assert.ok(b.submitted);assert.equal(a.submitted,undefined);assert.throws(()=>submit(b));assert.equal(b.questions.filter(q=>correct(q,b.answers[q.id])).length,20);});

@@ -1,0 +1,366 @@
+[
+  {
+    "id": "content-01",
+    "content_order": 1,
+    "course_section_inferred": 2,
+    "title": "Fundamentals of Security",
+    "pdf_page_start": 4,
+    "objective_ids": [
+      "1.1",
+      "1.2"
+    ],
+    "exam_eligible": true,
+    "mapping_basis": "Study guide opening objective summary; course number inferred from Introduction first",
+    "pdf_page_end": 17
+  },
+  {
+    "id": "content-02",
+    "content_order": 2,
+    "course_section_inferred": 3,
+    "title": "Threat Actors",
+    "pdf_page_start": 18,
+    "objective_ids": [
+      "1.2",
+      "2.1",
+      "2.2"
+    ],
+    "exam_eligible": true,
+    "mapping_basis": "Study guide opening objective summary; course number inferred from Introduction first",
+    "pdf_page_end": 31
+  },
+  {
+    "id": "content-03",
+    "content_order": 3,
+    "course_section_inferred": 4,
+    "title": "Physical Security",
+    "pdf_page_start": 32,
+    "objective_ids": [
+      "1.2",
+      "2.4"
+    ],
+    "exam_eligible": true,
+    "mapping_basis": "Study guide opening objective summary; course number inferred from Introduction first",
+    "pdf_page_end": 42
+  },
+  {
+    "id": "content-04",
+    "content_order": 4,
+    "course_section_inferred": 5,
+    "title": "Social Engineering",
+    "pdf_page_start": 43,
+    "objective_ids": [
+      "2.2",
+      "5.6"
+    ],
+    "exam_eligible": true,
+    "mapping_basis": "Study guide opening objective summary; course number inferred from Introduction first",
+    "pdf_page_end": 54
+  },
+  {
+    "id": "content-05",
+    "content_order": 5,
+    "course_section_inferred": 6,
+    "title": "Malware",
+    "pdf_page_start": 55,
+    "objective_ids": [
+      "2.4"
+    ],
+    "exam_eligible": true,
+    "mapping_basis": "Study guide opening objective summary; course number inferred from Introduction first",
+    "pdf_page_end": 69
+  },
+  {
+    "id": "content-06",
+    "content_order": 6,
+    "course_section_inferred": 7,
+    "title": "Data Protection",
+    "pdf_page_start": 70,
+    "objective_ids": [
+      "1.4",
+      "3.3",
+      "4.2",
+      "4.4",
+      "5.1"
+    ],
+    "exam_eligible": true,
+    "mapping_basis": "Study guide opening objective summary; course number inferred from Introduction first",
+    "pdf_page_end": 81
+  },
+  {
+    "id": "content-07",
+    "content_order": 7,
+    "course_section_inferred": 8,
+    "title": "Cryptographic Solutions",
+    "pdf_page_start": 82,
+    "objective_ids": [
+      "1.4",
+      "2.3",
+      "2.4"
+    ],
+    "exam_eligible": true,
+    "mapping_basis": "Study guide opening objective summary; course number inferred from Introduction first",
+    "pdf_page_end": 103
+  },
+  {
+    "id": "content-08",
+    "content_order": 8,
+    "course_section_inferred": 9,
+    "title": "Risk Management",
+    "pdf_page_start": 104,
+    "objective_ids": [
+      "5.2"
+    ],
+    "exam_eligible": true,
+    "mapping_basis": "Study guide opening objective summary; course number inferred from Introduction first",
+    "pdf_page_end": 115
+  },
+  {
+    "id": "content-09",
+    "content_order": 9,
+    "course_section_inferred": 10,
+    "title": "Third-party Vendor Risks",
+    "pdf_page_start": 116,
+    "objective_ids": [
+      "2.2",
+      "2.3",
+      "5.3"
+    ],
+    "exam_eligible": true,
+    "mapping_basis": "Study guide opening objective summary; course number inferred from Introduction first",
+    "pdf_page_end": 123
+  },
+  {
+    "id": "content-10",
+    "content_order": 10,
+    "course_section_inferred": 11,
+    "title": "Governance and Compliance",
+    "pdf_page_start": 124,
+    "objective_ids": [
+      "5.1",
+      "5.4"
+    ],
+    "exam_eligible": true,
+    "mapping_basis": "Study guide opening objective summary; course number inferred from Introduction first",
+    "pdf_page_end": 136
+  },
+  {
+    "id": "content-11",
+    "content_order": 11,
+    "course_section_inferred": 12,
+    "title": "Asset and Change Management",
+    "pdf_page_start": 137,
+    "objective_ids": [
+      "1.3",
+      "4.1",
+      "4.2"
+    ],
+    "exam_eligible": true,
+    "mapping_basis": "Study guide opening objective summary; course number inferred from Introduction first",
+    "pdf_page_end": 151
+  },
+  {
+    "id": "content-12",
+    "content_order": 12,
+    "course_section_inferred": 13,
+    "title": "Audits and Assessments",
+    "pdf_page_start": 152,
+    "objective_ids": [
+      "5.5"
+    ],
+    "exam_eligible": true,
+    "mapping_basis": "Study guide opening objective summary; course number inferred from Introduction first",
+    "pdf_page_end": 166
+  },
+  {
+    "id": "content-13",
+    "content_order": 13,
+    "course_section_inferred": 14,
+    "title": "Cyber Resilience and Redundancy",
+    "pdf_page_start": 167,
+    "objective_ids": [
+      "3.4"
+    ],
+    "exam_eligible": true,
+    "mapping_basis": "Study guide opening objective summary; course number inferred from Introduction first",
+    "pdf_page_end": 183
+  },
+  {
+    "id": "content-14",
+    "content_order": 14,
+    "course_section_inferred": 15,
+    "title": "Security Architecture",
+    "pdf_page_start": 184,
+    "objective_ids": [
+      "3.1",
+      "4.1"
+    ],
+    "exam_eligible": true,
+    "mapping_basis": "Study guide opening objective summary; course number inferred from Introduction first",
+    "pdf_page_end": 203
+  },
+  {
+    "id": "content-15",
+    "content_order": 15,
+    "course_section_inferred": 16,
+    "title": "Security Infrastructure",
+    "pdf_page_start": 204,
+    "objective_ids": [
+      "3.2",
+      "4.5"
+    ],
+    "exam_eligible": true,
+    "mapping_basis": "Study guide opening objective summary; course number inferred from Introduction first",
+    "pdf_page_end": 228
+  },
+  {
+    "id": "content-16",
+    "content_order": 16,
+    "course_section_inferred": 17,
+    "title": "Identity and Access Management (IAM) Solutions",
+    "pdf_page_start": 229,
+    "objective_ids": [
+      "2.4",
+      "4.6"
+    ],
+    "exam_eligible": true,
+    "mapping_basis": "Study guide opening objective summary; course number inferred from Introduction first",
+    "pdf_page_end": 246
+  },
+  {
+    "id": "content-17",
+    "content_order": 17,
+    "course_section_inferred": 18,
+    "title": "Vulnerabilities and Attacks",
+    "pdf_page_start": 247,
+    "objective_ids": [
+      "2.2",
+      "2.3",
+      "2.4",
+      "2.5",
+      "4.1"
+    ],
+    "exam_eligible": true,
+    "mapping_basis": "Study guide opening objective summary; course number inferred from Introduction first",
+    "pdf_page_end": 266
+  },
+  {
+    "id": "content-18",
+    "content_order": 18,
+    "course_section_inferred": 19,
+    "title": "Malicious Activity",
+    "pdf_page_start": 267,
+    "objective_ids": [
+      "2.4"
+    ],
+    "exam_eligible": true,
+    "mapping_basis": "Study guide opening objective summary; course number inferred from Introduction first",
+    "pdf_page_end": 282
+  },
+  {
+    "id": "content-19",
+    "content_order": 19,
+    "course_section_inferred": 20,
+    "title": "Hardening",
+    "pdf_page_start": 283,
+    "objective_ids": [
+      "2.5",
+      "4.1",
+      "4.5"
+    ],
+    "exam_eligible": true,
+    "mapping_basis": "Study guide opening objective summary; course number inferred from Introduction first",
+    "pdf_page_end": 298
+  },
+  {
+    "id": "content-20",
+    "content_order": 20,
+    "course_section_inferred": 21,
+    "title": "Security Techniques",
+    "pdf_page_start": 299,
+    "objective_ids": [
+      "4.1",
+      "4.5"
+    ],
+    "exam_eligible": true,
+    "mapping_basis": "Study guide opening objective summary; course number inferred from Introduction first",
+    "pdf_page_end": 317
+  },
+  {
+    "id": "content-21",
+    "content_order": 21,
+    "course_section_inferred": 22,
+    "title": "Vulnerability Management",
+    "pdf_page_start": 318,
+    "objective_ids": [
+      "4.3"
+    ],
+    "exam_eligible": true,
+    "mapping_basis": "Study guide opening objective summary; course number inferred from Introduction first",
+    "pdf_page_end": 331
+  },
+  {
+    "id": "content-22",
+    "content_order": 22,
+    "course_section_inferred": 23,
+    "title": "Alerting and Monitoring",
+    "pdf_page_start": 332,
+    "objective_ids": [
+      "4.4"
+    ],
+    "exam_eligible": true,
+    "mapping_basis": "Study guide opening objective summary; course number inferred from Introduction first",
+    "pdf_page_end": 352
+  },
+  {
+    "id": "content-23",
+    "content_order": 23,
+    "course_section_inferred": 24,
+    "title": "Incident Response",
+    "pdf_page_start": 353,
+    "objective_ids": [
+      "4.8"
+    ],
+    "exam_eligible": true,
+    "mapping_basis": "Study guide opening objective summary; course number inferred from Introduction first",
+    "pdf_page_end": 367
+  },
+  {
+    "id": "content-24",
+    "content_order": 24,
+    "course_section_inferred": 25,
+    "title": "Investigating an Incident",
+    "pdf_page_start": 368,
+    "objective_ids": [
+      "4.9"
+    ],
+    "exam_eligible": true,
+    "mapping_basis": "Study guide opening objective summary; course number inferred from Introduction first",
+    "pdf_page_end": 376
+  },
+  {
+    "id": "content-25",
+    "content_order": 25,
+    "course_section_inferred": 26,
+    "title": "Automation and Orchestration",
+    "pdf_page_start": 377,
+    "objective_ids": [
+      "4.7"
+    ],
+    "exam_eligible": true,
+    "mapping_basis": "Study guide opening objective summary; course number inferred from Introduction first",
+    "pdf_page_end": 391
+  },
+  {
+    "id": "content-26",
+    "content_order": 26,
+    "course_section_inferred": 27,
+    "title": "Security Awareness",
+    "pdf_page_start": 392,
+    "objective_ids": [
+      "5.6"
+    ],
+    "exam_eligible": true,
+    "mapping_basis": "Study guide opening objective summary; course number inferred from Introduction first",
+    "pdf_page_end": 402
+  }
+]

@@ -1,0 +1,903 @@
+[
+  {
+    "id": "fund-001",
+    "version": 1,
+    "exam_code": "SY0-701",
+    "type": "single",
+    "stem": "A company encrypts employee records so that only authorized personnel can read them. Which security goal is primarily supported?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Confidentiality"
+      },
+      {
+        "id": "1",
+        "text": "Integrity"
+      },
+      {
+        "id": "2",
+        "text": "Availability"
+      },
+      {
+        "id": "3",
+        "text": "Accounting"
+      }
+    ],
+    "correct": [
+      "0"
+    ],
+    "required_sections": [
+      "content-01"
+    ],
+    "objective": "1.2",
+    "explanation": "Confidentiality protects information from unauthorized access and disclosure. Encryption supports that goal; integrity concerns changes, availability concerns access when needed, and accounting records activity.",
+    "source": {
+      "title": "Dion Training SY0-701 Study Guide",
+      "section": "Fundamentals of Security",
+      "page": 7,
+      "filename": "CompTIA+Security++(SY0-701)+Study+Guide.pdf",
+      "sha256": "4eb43dde745e8f7c60e17ddce297e2282b410929a21fb6998c19e2b95c2f7d77"
+    },
+    "review": {
+      "method": "Compared against extracted source passage; original questions",
+      "date": "2026-09-08",
+      "status": "pilot-text-checked"
+    }
+  },
+  {
+    "id": "fund-002",
+    "version": 1,
+    "exam_code": "SY0-701",
+    "type": "single",
+    "stem": "An administrator compares a downloaded file with a trusted checksum to detect changes during transmission. Which security goal is being checked?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Availability"
+      },
+      {
+        "id": "1",
+        "text": "Integrity"
+      },
+      {
+        "id": "2",
+        "text": "Authorization"
+      },
+      {
+        "id": "3",
+        "text": "Confidentiality"
+      }
+    ],
+    "correct": [
+      "1"
+    ],
+    "required_sections": [
+      "content-01"
+    ],
+    "objective": "1.2",
+    "explanation": "Checksums help verify data integrity during transmission. This check does not itself grant permissions, keep the contents secret, or keep a service online.",
+    "source": {
+      "title": "Dion Training SY0-701 Study Guide",
+      "section": "Fundamentals of Security",
+      "page": 9,
+      "filename": "CompTIA+Security++(SY0-701)+Study+Guide.pdf",
+      "sha256": "4eb43dde745e8f7c60e17ddce297e2282b410929a21fb6998c19e2b95c2f7d77"
+    },
+    "review": {
+      "method": "Compared against extracted source passage; original questions",
+      "date": "2026-09-08",
+      "status": "pilot-text-checked"
+    }
+  },
+  {
+    "id": "fund-003",
+    "version": 1,
+    "exam_code": "SY0-701",
+    "type": "single",
+    "stem": "A service uses a second network path when its primary connection fails. Which security goal does this design primarily support?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Non-repudiation"
+      },
+      {
+        "id": "1",
+        "text": "Confidentiality"
+      },
+      {
+        "id": "2",
+        "text": "Availability"
+      },
+      {
+        "id": "3",
+        "text": "Authentication"
+      }
+    ],
+    "correct": [
+      "2"
+    ],
+    "required_sections": [
+      "content-01"
+    ],
+    "objective": "1.2",
+    "explanation": "Network redundancy provides an alternate path to keep resources accessible. It does not establish identity, hide data, or prove participation in a transaction.",
+    "source": {
+      "title": "Dion Training SY0-701 Study Guide",
+      "section": "Fundamentals of Security",
+      "page": 10,
+      "filename": "CompTIA+Security++(SY0-701)+Study+Guide.pdf",
+      "sha256": "4eb43dde745e8f7c60e17ddce297e2282b410929a21fb6998c19e2b95c2f7d77"
+    },
+    "review": {
+      "method": "Compared against extracted source passage; original questions",
+      "date": "2026-09-08",
+      "status": "pilot-text-checked"
+    }
+  },
+  {
+    "id": "fund-004",
+    "version": 1,
+    "exam_code": "SY0-701",
+    "type": "single",
+    "stem": "A supplier disputes having approved an electronic transaction. Which security property is most directly relevant to providing evidence of its participation?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Availability"
+      },
+      {
+        "id": "1",
+        "text": "Authorization"
+      },
+      {
+        "id": "2",
+        "text": "Data masking"
+      },
+      {
+        "id": "3",
+        "text": "Non-repudiation"
+      }
+    ],
+    "correct": [
+      "3"
+    ],
+    "required_sections": [
+      "content-01"
+    ],
+    "objective": "1.2",
+    "explanation": "Non-repudiation addresses evidence of participation in a transaction. Availability concerns uptime, authorization concerns permissions, and masking obscures data.",
+    "source": {
+      "title": "Dion Training SY0-701 Study Guide",
+      "section": "Fundamentals of Security",
+      "page": 10,
+      "filename": "CompTIA+Security++(SY0-701)+Study+Guide.pdf",
+      "sha256": "4eb43dde745e8f7c60e17ddce297e2282b410929a21fb6998c19e2b95c2f7d77"
+    },
+    "review": {
+      "method": "Compared against extracted source passage; original questions",
+      "date": "2026-09-08",
+      "status": "pilot-text-checked"
+    }
+  },
+  {
+    "id": "fund-005",
+    "version": 1,
+    "exam_code": "SY0-701",
+    "type": "single",
+    "stem": "A sign-in service checks whether a user is who they claim to be. Which function is it performing?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Authentication"
+      },
+      {
+        "id": "1",
+        "text": "Authorization"
+      },
+      {
+        "id": "2",
+        "text": "Accounting"
+      },
+      {
+        "id": "3",
+        "text": "Redundancy"
+      }
+    ],
+    "correct": [
+      "0"
+    ],
+    "required_sections": [
+      "content-01"
+    ],
+    "objective": "1.2",
+    "explanation": "Authentication verifies a claimed identity. Authorization determines permissions, accounting records activities, and redundancy supports reliability.",
+    "source": {
+      "title": "Dion Training SY0-701 Study Guide",
+      "section": "Fundamentals of Security",
+      "page": 11,
+      "filename": "CompTIA+Security++(SY0-701)+Study+Guide.pdf",
+      "sha256": "4eb43dde745e8f7c60e17ddce297e2282b410929a21fb6998c19e2b95c2f7d77"
+    },
+    "review": {
+      "method": "Compared against extracted source passage; original questions",
+      "date": "2026-09-08",
+      "status": "pilot-text-checked"
+    }
+  },
+  {
+    "id": "fund-006",
+    "version": 1,
+    "exam_code": "SY0-701",
+    "type": "single",
+    "stem": "After sign-in, a system allows an employee to read records but prevents the employee from editing them. Which function determines this access?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Accounting"
+      },
+      {
+        "id": "1",
+        "text": "Authorization"
+      },
+      {
+        "id": "2",
+        "text": "Authentication"
+      },
+      {
+        "id": "3",
+        "text": "Non-repudiation"
+      }
+    ],
+    "correct": [
+      "1"
+    ],
+    "required_sections": [
+      "content-01"
+    ],
+    "objective": "1.2",
+    "explanation": "Authorization governs permissions and privileges after authentication. Accounting records actions; authentication verifies identity; non-repudiation concerns evidence of participation.",
+    "source": {
+      "title": "Dion Training SY0-701 Study Guide",
+      "section": "Fundamentals of Security",
+      "page": 12,
+      "filename": "CompTIA+Security++(SY0-701)+Study+Guide.pdf",
+      "sha256": "4eb43dde745e8f7c60e17ddce297e2282b410929a21fb6998c19e2b95c2f7d77"
+    },
+    "review": {
+      "method": "Compared against extracted source passage; original questions",
+      "date": "2026-09-08",
+      "status": "pilot-text-checked"
+    }
+  },
+  {
+    "id": "fund-007",
+    "version": 1,
+    "exam_code": "SY0-701",
+    "type": "single",
+    "stem": "An investigator needs a chronological record showing which user changed a record and when. Which AAA function provides this evidence?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Authentication"
+      },
+      {
+        "id": "1",
+        "text": "Availability"
+      },
+      {
+        "id": "2",
+        "text": "Accounting"
+      },
+      {
+        "id": "3",
+        "text": "Authorization"
+      }
+    ],
+    "correct": [
+      "2"
+    ],
+    "required_sections": [
+      "content-01"
+    ],
+    "objective": "1.2",
+    "explanation": "Accounting tracks and records user activities to create an audit trail. Authentication verifies identity and authorization sets access; availability concerns operational access.",
+    "source": {
+      "title": "Dion Training SY0-701 Study Guide",
+      "section": "Fundamentals of Security",
+      "page": 12,
+      "filename": "CompTIA+Security++(SY0-701)+Study+Guide.pdf",
+      "sha256": "4eb43dde745e8f7c60e17ddce297e2282b410929a21fb6998c19e2b95c2f7d77"
+    },
+    "review": {
+      "method": "Compared against extracted source passage; original questions",
+      "date": "2026-09-08",
+      "status": "pilot-text-checked"
+    }
+  },
+  {
+    "id": "fund-008",
+    "version": 1,
+    "exam_code": "SY0-701",
+    "type": "single",
+    "stem": "A company deploys a software mechanism to reduce unauthorized access. Which broad control category describes this mechanism?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Managerial"
+      },
+      {
+        "id": "1",
+        "text": "Operational"
+      },
+      {
+        "id": "2",
+        "text": "Physical"
+      },
+      {
+        "id": "3",
+        "text": "Technical"
+      }
+    ],
+    "correct": [
+      "3"
+    ],
+    "required_sections": [
+      "content-01"
+    ],
+    "objective": "1.1",
+    "explanation": "Technical controls use technology, hardware, or software. Managerial controls concern governance, operational controls rely primarily on daily human processes, and physical controls protect tangible assets.",
+    "source": {
+      "title": "Dion Training SY0-701 Study Guide",
+      "section": "Fundamentals of Security",
+      "page": 14,
+      "filename": "CompTIA+Security++(SY0-701)+Study+Guide.pdf",
+      "sha256": "4eb43dde745e8f7c60e17ddce297e2282b410929a21fb6998c19e2b95c2f7d77"
+    },
+    "review": {
+      "method": "Compared against extracted source passage; original questions",
+      "date": "2026-09-08",
+      "status": "pilot-text-checked"
+    }
+  },
+  {
+    "id": "fund-009",
+    "version": 1,
+    "exam_code": "SY0-701",
+    "type": "single",
+    "stem": "Senior leadership establishes the organization\u2019s security governance strategy. Which broad control category best describes this work?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Managerial"
+      },
+      {
+        "id": "1",
+        "text": "Technical"
+      },
+      {
+        "id": "2",
+        "text": "Physical"
+      },
+      {
+        "id": "3",
+        "text": "Operational"
+      }
+    ],
+    "correct": [
+      "0"
+    ],
+    "required_sections": [
+      "content-01"
+    ],
+    "objective": "1.1",
+    "explanation": "Managerial controls cover strategic planning and governance. Daily human procedures are operational; technology is technical; tangible protective measures are physical.",
+    "source": {
+      "title": "Dion Training SY0-701 Study Guide",
+      "section": "Fundamentals of Security",
+      "page": 14,
+      "filename": "CompTIA+Security++(SY0-701)+Study+Guide.pdf",
+      "sha256": "4eb43dde745e8f7c60e17ddce297e2282b410929a21fb6998c19e2b95c2f7d77"
+    },
+    "review": {
+      "method": "Compared against extracted source passage; original questions",
+      "date": "2026-09-08",
+      "status": "pilot-text-checked"
+    }
+  },
+  {
+    "id": "fund-010",
+    "version": 1,
+    "exam_code": "SY0-701",
+    "type": "single",
+    "stem": "A team follows a daily human-operated procedure to protect data. Which broad control category best fits this procedure?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Physical"
+      },
+      {
+        "id": "1",
+        "text": "Operational"
+      },
+      {
+        "id": "2",
+        "text": "Technical"
+      },
+      {
+        "id": "3",
+        "text": "Managerial"
+      }
+    ],
+    "correct": [
+      "1"
+    ],
+    "required_sections": [
+      "content-01"
+    ],
+    "objective": "1.1",
+    "explanation": "Operational controls center on day-to-day processes and human actions. The other categories describe tangible measures, technology, and strategic governance.",
+    "source": {
+      "title": "Dion Training SY0-701 Study Guide",
+      "section": "Fundamentals of Security",
+      "page": 14,
+      "filename": "CompTIA+Security++(SY0-701)+Study+Guide.pdf",
+      "sha256": "4eb43dde745e8f7c60e17ddce297e2282b410929a21fb6998c19e2b95c2f7d77"
+    },
+    "review": {
+      "method": "Compared against extracted source passage; original questions",
+      "date": "2026-09-08",
+      "status": "pilot-text-checked"
+    }
+  },
+  {
+    "id": "fund-011",
+    "version": 1,
+    "exam_code": "SY0-701",
+    "type": "single",
+    "stem": "A facility installs tangible barriers to protect its equipment. Which broad control category describes these barriers?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Technical"
+      },
+      {
+        "id": "1",
+        "text": "Managerial"
+      },
+      {
+        "id": "2",
+        "text": "Physical"
+      },
+      {
+        "id": "3",
+        "text": "Operational"
+      }
+    ],
+    "correct": [
+      "2"
+    ],
+    "required_sections": [
+      "content-01"
+    ],
+    "objective": "1.1",
+    "explanation": "Physical controls are tangible protective measures. They differ from technology mechanisms, strategic governance, and day-to-day human procedures.",
+    "source": {
+      "title": "Dion Training SY0-701 Study Guide",
+      "section": "Fundamentals of Security",
+      "page": 14,
+      "filename": "CompTIA+Security++(SY0-701)+Study+Guide.pdf",
+      "sha256": "4eb43dde745e8f7c60e17ddce297e2282b410929a21fb6998c19e2b95c2f7d77"
+    },
+    "review": {
+      "method": "Compared against extracted source passage; original questions",
+      "date": "2026-09-08",
+      "status": "pilot-text-checked"
+    }
+  },
+  {
+    "id": "fund-012",
+    "version": 1,
+    "exam_code": "SY0-701",
+    "type": "single",
+    "stem": "A security measure is designed to stop an unauthorized action before it occurs. Which control type best describes that purpose?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Detective"
+      },
+      {
+        "id": "1",
+        "text": "Corrective"
+      },
+      {
+        "id": "2",
+        "text": "Directive"
+      },
+      {
+        "id": "3",
+        "text": "Preventive"
+      }
+    ],
+    "correct": [
+      "3"
+    ],
+    "required_sections": [
+      "content-01"
+    ],
+    "objective": "1.1",
+    "explanation": "Preventive controls proactively thwart threats. Detective controls identify activity, corrective controls restore normal operation, and directive controls specify required behavior.",
+    "source": {
+      "title": "Dion Training SY0-701 Study Guide",
+      "section": "Fundamentals of Security",
+      "page": 14,
+      "filename": "CompTIA+Security++(SY0-701)+Study+Guide.pdf",
+      "sha256": "4eb43dde745e8f7c60e17ddce297e2282b410929a21fb6998c19e2b95c2f7d77"
+    },
+    "review": {
+      "method": "Compared against extracted source passage; original questions",
+      "date": "2026-09-08",
+      "status": "pilot-text-checked"
+    }
+  },
+  {
+    "id": "fund-013",
+    "version": 1,
+    "exam_code": "SY0-701",
+    "type": "single",
+    "stem": "A warning is intended to discourage a potential attacker from attempting a breach. Which control type best describes its intended purpose?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Deterrent"
+      },
+      {
+        "id": "1",
+        "text": "Corrective"
+      },
+      {
+        "id": "2",
+        "text": "Compensating"
+      },
+      {
+        "id": "3",
+        "text": "Detective"
+      }
+    ],
+    "correct": [
+      "0"
+    ],
+    "required_sections": [
+      "content-01"
+    ],
+    "objective": "1.1",
+    "explanation": "Deterrent controls discourage attempts. Corrective controls address damage, compensating controls substitute for a primary control, and detective controls identify activity.",
+    "source": {
+      "title": "Dion Training SY0-701 Study Guide",
+      "section": "Fundamentals of Security",
+      "page": 14,
+      "filename": "CompTIA+Security++(SY0-701)+Study+Guide.pdf",
+      "sha256": "4eb43dde745e8f7c60e17ddce297e2282b410929a21fb6998c19e2b95c2f7d77"
+    },
+    "review": {
+      "method": "Compared against extracted source passage; original questions",
+      "date": "2026-09-08",
+      "status": "pilot-text-checked"
+    }
+  },
+  {
+    "id": "fund-014",
+    "version": 1,
+    "exam_code": "SY0-701",
+    "type": "single",
+    "stem": "A control monitors activity and alerts the security team shortly after a malicious event. Which control type is this?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Preventive"
+      },
+      {
+        "id": "1",
+        "text": "Detective"
+      },
+      {
+        "id": "2",
+        "text": "Directive"
+      },
+      {
+        "id": "3",
+        "text": "Compensating"
+      }
+    ],
+    "correct": [
+      "1"
+    ],
+    "required_sections": [
+      "content-01"
+    ],
+    "objective": "1.1",
+    "explanation": "Detective controls monitor and alert during or shortly after malicious activity. They do not necessarily prevent it, prescribe behavior, or replace another control.",
+    "source": {
+      "title": "Dion Training SY0-701 Study Guide",
+      "section": "Fundamentals of Security",
+      "page": 14,
+      "filename": "CompTIA+Security++(SY0-701)+Study+Guide.pdf",
+      "sha256": "4eb43dde745e8f7c60e17ddce297e2282b410929a21fb6998c19e2b95c2f7d77"
+    },
+    "review": {
+      "method": "Compared against extracted source passage; original questions",
+      "date": "2026-09-08",
+      "status": "pilot-text-checked"
+    }
+  },
+  {
+    "id": "fund-015",
+    "version": 1,
+    "exam_code": "SY0-701",
+    "type": "single",
+    "stem": "A control is used after an incident to mitigate damage and restore normal system operation. Which control type is this?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Deterrent"
+      },
+      {
+        "id": "1",
+        "text": "Directive"
+      },
+      {
+        "id": "2",
+        "text": "Corrective"
+      },
+      {
+        "id": "3",
+        "text": "Preventive"
+      }
+    ],
+    "correct": [
+      "2"
+    ],
+    "required_sections": [
+      "content-01"
+    ],
+    "objective": "1.1",
+    "explanation": "Corrective controls mitigate damage and restore normal operation. Deterrent and preventive controls act against potential attempts; directive controls guide behavior.",
+    "source": {
+      "title": "Dion Training SY0-701 Study Guide",
+      "section": "Fundamentals of Security",
+      "page": 15,
+      "filename": "CompTIA+Security++(SY0-701)+Study+Guide.pdf",
+      "sha256": "4eb43dde745e8f7c60e17ddce297e2282b410929a21fb6998c19e2b95c2f7d77"
+    },
+    "review": {
+      "method": "Compared against extracted source passage; original questions",
+      "date": "2026-09-08",
+      "status": "pilot-text-checked"
+    }
+  },
+  {
+    "id": "fund-016",
+    "version": 1,
+    "exam_code": "SY0-701",
+    "type": "single",
+    "stem": "A primary control cannot be implemented on a legacy system. An alternative measure is selected to address the same security need. Which control type is the alternative?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Detective"
+      },
+      {
+        "id": "1",
+        "text": "Directive"
+      },
+      {
+        "id": "2",
+        "text": "Corrective"
+      },
+      {
+        "id": "3",
+        "text": "Compensating"
+      }
+    ],
+    "correct": [
+      "3"
+    ],
+    "required_sections": [
+      "content-01"
+    ],
+    "objective": "1.1",
+    "explanation": "Compensating controls provide alternatives when primary controls are not feasible or effective. Their defining feature is substitution, rather than detection, instructions, or restoration.",
+    "source": {
+      "title": "Dion Training SY0-701 Study Guide",
+      "section": "Fundamentals of Security",
+      "page": 15,
+      "filename": "CompTIA+Security++(SY0-701)+Study+Guide.pdf",
+      "sha256": "4eb43dde745e8f7c60e17ddce297e2282b410929a21fb6998c19e2b95c2f7d77"
+    },
+    "review": {
+      "method": "Compared against extracted source passage; original questions",
+      "date": "2026-09-08",
+      "status": "pilot-text-checked"
+    }
+  },
+  {
+    "id": "fund-017",
+    "version": 1,
+    "exam_code": "SY0-701",
+    "type": "single",
+    "stem": "A policy mandates specific security actions that all employees must follow. Which control type best describes the policy\u2019s purpose?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Directive"
+      },
+      {
+        "id": "1",
+        "text": "Deterrent"
+      },
+      {
+        "id": "2",
+        "text": "Corrective"
+      },
+      {
+        "id": "3",
+        "text": "Compensating"
+      }
+    ],
+    "correct": [
+      "0"
+    ],
+    "required_sections": [
+      "content-01"
+    ],
+    "objective": "1.1",
+    "explanation": "Directive controls guide or mandate actions, often through policy. Deterrence discourages attackers, correction restores operation, and compensation replaces a primary measure.",
+    "source": {
+      "title": "Dion Training SY0-701 Study Guide",
+      "section": "Fundamentals of Security",
+      "page": 15,
+      "filename": "CompTIA+Security++(SY0-701)+Study+Guide.pdf",
+      "sha256": "4eb43dde745e8f7c60e17ddce297e2282b410929a21fb6998c19e2b95c2f7d77"
+    },
+    "review": {
+      "method": "Compared against extracted source passage; original questions",
+      "date": "2026-09-08",
+      "status": "pilot-text-checked"
+    }
+  },
+  {
+    "id": "fund-018",
+    "version": 1,
+    "exam_code": "SY0-701",
+    "type": "single",
+    "stem": "An organization compares its current security performance with its desired performance and plans improvements. What process is it conducting?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Network redundancy"
+      },
+      {
+        "id": "1",
+        "text": "Gap analysis"
+      },
+      {
+        "id": "2",
+        "text": "Authentication"
+      },
+      {
+        "id": "3",
+        "text": "Data masking"
+      }
+    ],
+    "correct": [
+      "1"
+    ],
+    "required_sections": [
+      "content-01"
+    ],
+    "objective": "1.2",
+    "explanation": "Gap analysis identifies differences between current and desired performance and develops a plan to close them. The other choices serve availability, identity verification, or confidentiality.",
+    "source": {
+      "title": "Dion Training SY0-701 Study Guide",
+      "section": "Fundamentals of Security",
+      "page": 15,
+      "filename": "CompTIA+Security++(SY0-701)+Study+Guide.pdf",
+      "sha256": "4eb43dde745e8f7c60e17ddce297e2282b410929a21fb6998c19e2b95c2f7d77"
+    },
+    "review": {
+      "method": "Compared against extracted source passage; original questions",
+      "date": "2026-09-08",
+      "status": "pilot-text-checked"
+    }
+  },
+  {
+    "id": "fund-019",
+    "version": 1,
+    "exam_code": "SY0-701",
+    "type": "single",
+    "stem": "In the guide\u2019s zero trust model, which component executes the decision to grant or deny access?",
+    "options": [
+      {
+        "id": "0",
+        "text": "Policy engine"
+      },
+      {
+        "id": "1",
+        "text": "Subject/system"
+      },
+      {
+        "id": "2",
+        "text": "Policy enforcement point"
+      },
+      {
+        "id": "3",
+        "text": "Adaptive identity"
+      }
+    ],
+    "correct": [
+      "2"
+    ],
+    "required_sections": [
+      "content-01"
+    ],
+    "objective": "1.2",
+    "explanation": "The policy enforcement point executes the access decision. The policy engine evaluates requests against policies, the subject requests access, and adaptive identity considers context.",
+    "source": {
+      "title": "Dion Training SY0-701 Study Guide",
+      "section": "Fundamentals of Security",
+      "page": 17,
+      "filename": "CompTIA+Security++(SY0-701)+Study+Guide.pdf",
+      "sha256": "4eb43dde745e8f7c60e17ddce297e2282b410929a21fb6998c19e2b95c2f7d77"
+    },
+    "review": {
+      "method": "Compared against extracted source passage; original questions",
+      "date": "2026-09-08",
+      "status": "pilot-text-checked"
+    }
+  },
+  {
+    "id": "fund-020",
+    "version": 1,
+    "exam_code": "SY0-701",
+    "type": "multiple",
+    "stem": "Which TWO components does the guide place in the zero trust control plane? Select two.",
+    "options": [
+      {
+        "id": "0",
+        "text": "Subject/system"
+      },
+      {
+        "id": "1",
+        "text": "Policy enforcement point"
+      },
+      {
+        "id": "2",
+        "text": "Policy engine"
+      },
+      {
+        "id": "3",
+        "text": "Policy administrator"
+      }
+    ],
+    "correct": [
+      "2",
+      "3"
+    ],
+    "required_sections": [
+      "content-01"
+    ],
+    "objective": "1.2",
+    "explanation": "The control plane includes the policy engine and policy administrator. The guide places the subject/system and policy enforcement point in the data plane.",
+    "source": {
+      "title": "Dion Training SY0-701 Study Guide",
+      "section": "Fundamentals of Security",
+      "page": 17,
+      "filename": "CompTIA+Security++(SY0-701)+Study+Guide.pdf",
+      "sha256": "4eb43dde745e8f7c60e17ddce297e2282b410929a21fb6998c19e2b95c2f7d77"
+    },
+    "review": {
+      "method": "Compared against extracted source passage; original questions",
+      "date": "2026-09-08",
+      "status": "pilot-text-checked"
+    }
+  }
+]
