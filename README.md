@@ -15,4 +15,4 @@ Status: research and specification complete for the initial pass; app and questi
 - `research/sources.json`: dated external source registry with verification status.
 - `research/local-extracted/`: private, page-indexed source text; not intended for public repository distribution.
 
-The original course PDFs are unchanged. A local Git repository has been initialized. GitHub upload is pending repository access. Keep licensed materials and full extracted text out of public Git history; the app can use original questions, short supporting excerpts where appropriate, and local source locators.
+The original course PDFs are unchanged. Project saved to [CptHowdy11/ComptiaSecPlusExam](https://github.com/CptHowdy11/ComptiaSecPlusExam) on the main branch. The user approved public project documentation; licensed source PDFs and full extracted text remain local. Keep licensed materials and full extracted text out of public Git history; the app can use original questions, short supporting excerpts where appropriate, and local source locators.

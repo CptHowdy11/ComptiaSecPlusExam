@@ -44,3 +44,7 @@ Passed: three source inventories total 439 pages; 26 content ranges are contiguo
 ## GitHub save preparation
 
 2026-09-08: User authorized saving the project to GitHub. Initialized local main branch and staged nine documentation/index files; licensed PDFs and full extraction remain ignored. Connected account is CptHowdy11, but connector lists no accessible repositories and has no repository creation operation. GitHub browser fallback requires user sign-in. No remote repository or push completed yet. Proposed repository name: security-plus-practice, private by default. Existing Git author configuration retained. Next action: create or select accessible repository, push this commit, verify remote files, and update this status.
+
+## GitHub save and public documentation approval
+
+2026-09-08: User supplied https://github.com/CptHowdy11/ComptiaSecPlusExam.git. Confirmed empty remote and push permission; repository visibility is public. Added origin and pushed initial commit 3a5f6bb to main with upstream tracking. Verified remote and local commit match. Nine documentation and research-index files uploaded; original PDFs and full extracted text excluded. A subsequent status-update push was blocked by automatic approval review pending explicit public-exposure approval. User then explicitly approved keeping project documentation public and publishing this final status update. Earlier pending-access notes above are historical and resolved. Existing Git authentication worked without additional setup. No app deployment enabled.
