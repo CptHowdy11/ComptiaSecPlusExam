@@ -20,15 +20,12 @@ For local development, run `python -m http.server 8000 --directory app` from the
 
 GitHub Actions tests and publishes only `app/` to Pages on each main-branch push. Course source files are never included in the deployed artifact.
 
-## Start here
+## Project documentation
 
-- [Project charter](docs/PROJECT_CHARTER.md): user requirements, proposed behavior, decisions and acceptance checks.
-- [Research reference catalog](docs/RESEARCH.md): sources and how to use them.
-- [Course map](docs/COURSE_MAP.md): 26 exam-content sections and page ranges.
-- [Handoff and work log](docs/HANDOFF.md): current state, limitations and next steps.
-- `research/materials.json`: three original PDFs with SHA-256 hashes and page counts.
-- `research/course-sections.json`: machine-readable content map.
-- `research/sources.json`: dated external source registry with verification status.
-- `research/local-extracted/`: private, page-indexed source text; not intended for public repository distribution.
+- [Project charter](docs/PROJECT_CHARTER.md): requirements and implementation decisions.
+- [Handoff and work log](docs/HANDOFF.md): progress, limitations and next steps.
+- [Question bank coverage](docs/QUESTION_BANK.md): implemented coverage and review status.
 
-The original course PDFs are unchanged. Project saved to [CptHowdy11/ComptiaSecPlusExam](https://github.com/CptHowdy11/ComptiaSecPlusExam) on the main branch. The user approved public project documentation; licensed source PDFs and full extracted text remain local. Keep licensed materials and full extracted text out of public Git history; the app can use original questions, short supporting excerpts where appropriate, and local source locators.
+Reference resources are local-only and excluded from Git tracking: original PDFs, the research directory, reference downloads, research catalog and source course map. These files remain in the original local project folder and are not supplied by a fresh clone. The app retains its runtime section list, original questions and answer citations so quizzes and source-based review work.
+
+Project repository: [CptHowdy11/ComptiaSecPlusExam](https://github.com/CptHowdy11/ComptiaSecPlusExam). Reference files committed before this change may still exist in older Git commits; this change removes them from the current branch without rewriting history.

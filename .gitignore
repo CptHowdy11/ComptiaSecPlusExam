@@ -1,7 +1,9 @@
 # Private licensed course originals and full derived source text
 /*.pdf
-research/local-extracted/
-research/downloads/
+research/
+references/
+docs/RESEARCH.md
+docs/COURSE_MAP.md
 # Local runtime/build output
 node_modules/
 dist/
