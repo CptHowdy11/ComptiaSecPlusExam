@@ -2,13 +2,19 @@
 
 Target: September 28, 2026 (year inferred from current project date). Course: Dion Training SY0-701.
 
-Status: working pilot with 20 Fundamentals questions, course progress, cumulative selection, saved attempts, answer review, and backup import/export.
+Status: working app with 170 questions across all 26 course sections, cumulative practice, three domain-balanced full forms, saved attempts, randomized retakes, answer review, and backup import/export.
 
 ## Try the app
 
 [Open the practice room](https://cpthowdy11.github.io/ComptiaSecPlusExam/)
 
-Choose **Start Fundamentals**, answer all 20 questions, then select **Submit all answers**. Feedback and source pages appear only after submission. Answers save in this browser; export a backup for another device. The pilot reuses the same 20 questions in shuffled order. Other section banks and full exams are not yet available.
+Choose one or more sections under **Choose sections**, then **Start section exam**. Answer every question and select **Submit all answers**. Feedback and source pages appear only afterward.
+
+After reviewing a result, select **Retake this exam** to use its exact saved questions and versions with shuffled question and answer order. Your original result remains saved; the retake starts with blank answers. You can also open an older result from **Recent attempts** and retake it.
+
+Mark sections studied to include them in **Cumulative practice** (up to 40 questions). After all 26 are marked studied, select full form A, B or C (90 questions, 90-minute target). Timers continue while away and allow overtime until every answer is submitted.
+
+Coverage is a starting bank: 20 Fundamentals questions and six per other section. Full forms overlap and the app reports previously seen questions. The forms currently contain multiple-choice questions, not hands-on PBQs. This is not yet exhaustive course-topic coverage. Export a backup before clearing browser data or moving devices.
 
 For local development, run `python -m http.server 8000 --directory app` from the project folder, then open `http://localhost:8000`. Do not open the HTML directly. Run `npm test` with Node.js installed. No dependency installation or API key is needed.
 
