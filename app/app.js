@@ -1,3 +1,4 @@
+import {daysUntilExam,progressSummary,accuracySummary} from './dashboard.js';
 import {answered,correct,eligible,submit,shuffle,newAttempt,retake,fullForm,cumulative,remainingSeconds} from './engine.js';
 const root=document.querySelector('#app'), key='secplus-practice-v1';
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -6,9 +7,19 @@ function save(){try{localStorage.setItem(key,JSON.stringify(state));}catch{stora
 function button(label,action,cls=''){return `<button class="${cls}" data-action="${action}">${label}</button>`;}
 function notice(){return storageWarning?`<p role="alert" class="notice">${esc(storageWarning)}</p>`:'';}
 function score(a){return a.questions.filter(q=>correct(q,a.answers[q.id])).length;}
-function render(){root.innerHTML=notice()+(view==='quiz'?quiz():view==='results'?results():home());updateTimer();root.querySelectorAll('[data-action]').forEach(el=>el.onclick=()=>act(el.dataset.action));root.querySelectorAll('[data-section]').forEach(el=>el.onchange=()=>{state.studied=el.checked?[...new Set([...state.studied,el.dataset.section])]:state.studied.filter(s=>s!==el.dataset.section);save();render();});root.querySelectorAll('[name="answer"]').forEach(el=>el.onchange=()=>{const a=state.attempt,q=a.questions[index];if(a.submitted)return; a.answers[q.id]=[...root.querySelectorAll('[name="answer"]:checked')].map(x=>x.value);save();render();root.querySelector(`[name="answer"][value="${el.value}"]`)?.focus();});root.querySelectorAll('[data-pick]').forEach(el=>el.onchange=()=>{selectedSections=el.checked?[...new Set([...selectedSections,el.dataset.pick])]:selectedSections.filter(id=>id!==el.dataset.pick);render();root.querySelector('.picker').open=true;});root.querySelector('#form')?.addEventListener('change',e=>selectedForm=e.target.value);root.querySelector('#import')?.addEventListener('change',importFile);root.querySelector('#missed')?.addEventListener('change',e=>{root.querySelectorAll('.review.correct').forEach(x=>x.hidden=e.target.checked);});}
+function render(){root.innerHTML=notice()+dashboard()+(view==='quiz'?quiz():view==='results'?results():home());updateTimer();root.querySelectorAll('[data-action]').forEach(el=>el.onclick=()=>act(el.dataset.action));root.querySelectorAll('[data-section]').forEach(el=>el.onchange=()=>{state.studied=el.checked?[...new Set([...state.studied,el.dataset.section])]:state.studied.filter(s=>s!==el.dataset.section);save();render();});root.querySelectorAll('[name="answer"]').forEach(el=>el.onchange=()=>{const a=state.attempt,q=a.questions[index];if(a.submitted)return; a.answers[q.id]=[...root.querySelectorAll('[name="answer"]:checked')].map(x=>x.value);save();render();root.querySelector(`[name="answer"][value="${el.value}"]`)?.focus();});root.querySelectorAll('[data-pick]').forEach(el=>el.onchange=()=>{selectedSections=el.checked?[...new Set([...selectedSections,el.dataset.pick])]:selectedSections.filter(id=>id!==el.dataset.pick);render();root.querySelector('.picker').open=true;});root.querySelector('#form')?.addEventListener('change',e=>selectedForm=e.target.value);root.querySelector('#import')?.addEventListener('change',importFile);root.querySelector('#missed')?.addEventListener('change',e=>{root.querySelectorAll('.review.correct').forEach(x=>x.hidden=e.target.checked);});}
+function countdownText(){const days=daysUntilExam();return days>0?`${days} days`:days===0?'Exam day!':'Exam date passed';}
+function dashboard(){
+  const progress=progressSummary(state.studied,sections),summary=accuracySummary(state.history,sections);
+  const rows=items=>items.map(r=>`<div class="accuracy-row"><span>${esc(r.title)}</span><strong>${r.percent===null?'Not attempted':r.percent+'%'}</strong><small>${r.right} / ${r.total} correct</small><progress max="100" value="${r.percent??0}" aria-label="${esc(r.title)} accuracy: ${r.percent===null?'not attempted':r.percent+' percent'}"></progress></div>`).join('');
+  return `<section class="dashboard" aria-label="Study dashboard"><div class="dashboard-cards">
+    <article><span class="eyebrow">UNTIL TEST DAY</span><strong id="exam-countdown">${countdownText()}</strong><span>September 28, 2026 · local calendar date</span></article>
+    <article><span class="eyebrow">MODULES LEFT</span><strong>${progress.remaining}<small> / ${sections.length}</small></strong><span>${progress.completed} completed · mark modules studied below</span><progress value="${progress.completed}" max="${sections.length}" aria-label="Modules completed"></progress></article>
+    <article><span class="eyebrow">LIFETIME ACCURACY</span><strong>${summary.overall.percent===null?'—':summary.overall.percent+'%'}</strong><span>${summary.overall.total?`${summary.overall.right} / ${summary.overall.total} correct across submitted attempts`:'Submit your first exam to see your accuracy'}</span></article>
+    </div><section class="accuracy-details"><h2>Rolling accuracy by domain</h2><p class="subtle">Domain percentages use the most recent 20 submitted questions in each domain (or all available if fewer), including retakes. Exams are ordered by submission time; within each exam, its question order determines the latest questions. Overall and module percentages include all submitted answers. Unfinished exams are excluded. This is practice accuracy, not a predicted CompTIA score. Questions linked to multiple modules count in each relevant module, but only once overall.</p><h2>Exam domains · latest 20 questions each</h2><div class="accuracy-grid">${rows(summary.byDomain)}</div><details><summary>Course modules · lifetime accuracy</summary><div class="accuracy-grid">${rows(summary.bySection)}</div></details></section></section>`;
+}
 function home() {
-  const count=state.studied.length;
+  const count=progressSummary(state.studied,sections).completed;
   const available=eligible(bank, selectedSections).length;
   return `<section class="hero"><p class="eyebrow">YOUR SECURITY+ STUDY COMPANION</p>
     <h1>Practice with purpose.<br><em>Know where you stand.</em></h1>
@@ -59,6 +70,7 @@ function start(mode) {
   } catch(e){alert(e.message);}
 }
 function updateTimer(){
+  const countdown=root.querySelector('#exam-countdown');if(countdown)countdown.textContent=countdownText();
   const el=root.querySelector('#timer');if(!el)return;
   const seconds=remainingSeconds(state.attempt);
   if(seconds===null){el.hidden=true;return;}
