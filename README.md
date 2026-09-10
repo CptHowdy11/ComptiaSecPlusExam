@@ -2,7 +2,7 @@
 
 Target: September 28, 2026 (year inferred from current project date). Course: Dion Training SY0-701.
 
-Status: working app with 520 questions: 20 in each of the 26 course sections, cumulative practice, three domain-balanced full forms, saved attempts, randomized retakes, answer review, and backup import/export.
+Status: working app with 686 questions: 36 for Fundamentals and 26 in each remaining course section, cumulative practice, three domain-balanced full forms, saved attempts, randomized retakes, answer review, and backup import/export.
 
 ## Try the app
 
@@ -12,9 +12,9 @@ Choose one or more sections under **Choose sections**, then **Start section exam
 
 After reviewing a result, select **Retake this exam** to use its exact saved questions and versions with shuffled question and answer order. Your original result remains saved; the retake starts with blank answers. You can also open an older result from **Recent attempts** and retake it.
 
-Mark sections studied to include them in **Cumulative practice** (up to 40 questions). After all 26 are marked studied, select full form A, B or C (90 questions, 90-minute target). Timers continue while away and allow overtime until every answer is submitted.
+Mark sections studied to include them in **Cumulative practice** (up to 40 questions), which prioritizes applied questions and represents each studied section. After all 26 are marked studied, select full form A, B or C (90 applied questions, 90-minute target). Each form covers all 28 primary objectives while retaining the domain quotas. This does not mean every objective subtopic is covered. Timers continue while away and allow overtime until every answer is submitted.
 
-Coverage is a starting bank: 20 questions per section, mixing scenarios and definition recognition. Full forms overlap and the app reports previously seen questions. The forms currently contain multiple-choice questions, not hands-on PBQs. This is not yet exhaustive course-topic coverage. Export a backup before clearing browser data or moving devices.
+Coverage is a starting bank: 187 applied questions and 499 foundational questions, mixing scenarios, calculations, evidence interpretation, and definition recognition. Full forms overlap and the app reports previously seen questions. The forms currently contain multiple-choice questions, not hands-on PBQs. This is not yet exhaustive course-topic coverage. Export a backup before clearing browser data or moving devices.
 
 For local development, run `python -m http.server 8000 --directory app` from the project folder, then open `http://localhost:8000`. Do not open the HTML directly. Run `npm test` with Node.js installed. No dependency installation or API key is needed.
 

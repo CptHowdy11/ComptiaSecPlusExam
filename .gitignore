@@ -11,3 +11,6 @@ dist/
 .env.*
 !.env.example
 tmp/
+
+# Local research comparison, not a published project document
+docs/EXAM_STYLE_BENCHMARK.md

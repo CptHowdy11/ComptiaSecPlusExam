@@ -6,6 +6,32 @@ export function shuffle(items) { const result=[...items]; for(let i=result.lengt
 
 export const quotas = {1: 11, 2: 20, 3: 16, 4: 25, 5: 18};
 
+// Prefer a new assessed subtopic, then spread questions across course sections.
+// The input order is already randomized (seeded for full forms).
+function diversePick(pool, selected) {
+  const key = q => `${q.objective}:${(q.objective_topics?.length ? q.objective_topics : q.subtopics || [q.id]).join('|')}`;
+  const topicCount = q => selected.filter(x => key(x) === key(q)).length;
+  const sectionCount = q => selected.filter(x => x.required_sections.some(s => q.required_sections.includes(s))).length;
+  return [...pool].sort((a,b) => topicCount(a)-topicCount(b) || sectionCount(a)-sectionCount(b))[0];
+}
+
+export function sectionPractice(bank, sections, limit = 90) {
+  const pool = shuffle(eligible(bank, sections)), selected = [];
+  // Include every question for a small section set. For a capped multi-section
+  // exam, cover the selected sections before filling remaining places.
+  for (const section of [...new Set(sections)]) {
+    if(selected.length>=limit) break;
+    const candidates=pool.filter(q=>q.required_sections.includes(section)&&!selected.includes(q));
+    const q=diversePick(candidates.filter(q=>q.practice_level==='applied'),selected)||diversePick(candidates,selected);
+    if(q) selected.push(q);
+  }
+  while(selected.length<Math.min(limit,pool.length)) {
+    const remaining=pool.filter(q=>!selected.includes(q));
+    selected.push(diversePick(remaining.filter(q=>q.practice_level==='applied'),selected)||diversePick(remaining,selected));
+  }
+  return selected;
+}
+
 // A fresh order is guaranteed for lists with more than one item, even if the
 // random shuffle happens to return the original order.
 export function reordered(items) {
@@ -41,23 +67,24 @@ export function fullForm(bank, form = 'A') {
   const random = () => {seed = (Math.imul(seed, 1664525) + 1013904223) >>> 0; return seed / 4294967296;};
   const result = [];
   for (const [domain, count] of Object.entries(quotas)) {
-    const pool = bank.filter(q => String(q.primary_domain || q.objective[0]) === domain).sort((a,b)=>a.id.localeCompare(b.id));
-    if (pool.length < count) throw Error(`Domain ${domain} needs ${count} questions; only ${pool.length} available.`);
+    const pool = bank.filter(q => q.practice_level === 'applied' && String(q.primary_domain || q.objective[0]) === domain).sort((a,b)=>a.id.localeCompare(b.id));
+    if (pool.length < count) throw Error(`Domain ${domain} needs ${count} applied questions; only ${pool.length} available.`);
     for(let i=pool.length-1;i>0;i--){const j=Math.floor(random()*(i+1));[pool[i],pool[j]]=[pool[j],pool[i]];}
-    result.push(...pool.slice(0,count));
+    const selected=[];
+    // Each primary objective represented in this domain gets a place. This
+    // prevents a plentiful fundamentals bank from crowding out change control.
+    const objectives=[...new Set(pool.map(q=>q.objective))];
+    if(objectives.length>count) throw Error(`Domain ${domain} has more objectives than available places.`);
+    for(const objective of objectives) selected.push(diversePick(pool.filter(q=>q.objective===objective),selected));
+    while(selected.length<count) selected.push(diversePick(pool.filter(q=>!selected.includes(q)),selected));
+    result.push(...selected);
   }
   if(new Set(result.map(q=>q.id)).size!==90) throw Error('Exam contains duplicate question IDs.');
   return result;
 }
 
 export function cumulative(bank, studied, limit = 40) {
-  const pool = shuffle(eligible(bank, studied)), selected = [];
-  // Represent each studied section when the requested size permits it.
-  for(const section of studied) {
-    const q = pool.find(q=>q.required_sections.includes(section)&&!selected.includes(q));
-    if(q && selected.length<limit) selected.push(q);
-  }
-  return selected.concat(pool.filter(q=>!selected.includes(q))).slice(0,limit);
+  return sectionPractice(bank, studied, limit);
 }
 
 export function remainingSeconds(attempt, now = Date.now()) {

@@ -1,5 +1,5 @@
 import {daysUntilExam,progressSummary,accuracySummary} from './dashboard.js';
-import {answered,correct,eligible,submit,shuffle,newAttempt,retake,fullForm,cumulative,remainingSeconds} from './engine.js';
+import {answered,correct,eligible,submit,shuffle,newAttempt,retake,fullForm,cumulative,sectionPractice,remainingSeconds} from './engine.js';
 const root=document.querySelector('#app'), key='secplus-practice-v1';
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let bank,sections,state={version:1,studied:[],attempt:null,history:[]},view='home',index=0,storageWarning='',selectedSections=['content-01'],selectedForm='A';
@@ -29,7 +29,7 @@ function home() {
     <div><strong>${state.history.length}</strong><span>Completed attempts</span></div></div>
     ${state.attempt&&!state.attempt.submitted?`<div class="notice">You have an unfinished exam. ${button('Resume exam','resume','primary')}</div>`:''}
     <section><div class="section-head"><h2>Choose your practice</h2><span class="tag">ALL 26 SECTIONS</span></div>
-    <p class="subtle">520 questions: 20 per course section, combining scenarios and definition recognition. These sets do not yet cover every course topic. Full forms are multiple-choice; hands-on PBQs are not included.</p>
+    <p class="subtle">Expanded practice includes scenarios, calculations, evidence interpretation, and multiple-selection questions. Section exams include foundational review; cumulative selection prioritizes applied questions, and full forms use the applied bank. Topic coverage is still growing; hands-on PBQs are not included.</p>
     <div class="modes"><article><span class="number">01 / FOCUSED</span><h3>Section practice</h3>
     <p>Choose the area or areas you just studied. Each attempt uses every question currently available for your selection, up to 90.</p>
     <details class="picker"><summary>Choose sections (${selectedSections.length})</summary>
@@ -40,7 +40,7 @@ function home() {
     <p>Practice all the areas marked studied. Each selection represents every studied section when there is room.</p>
     ${button('Start cumulative →','cumulative')}<small>${Math.min(40,eligible(bank,state.studied).length)} questions this attempt · ${eligible(bank,state.studied).length} available</small></article>
     <article><span class="number">03 / EXAM DAY</span><h3>Full practice exam</h3>
-    <p>90 questions with a 90-minute target. Domain balance: 11 / 20 / 16 / 25 / 18.</p>
+    <p>90 applied questions with a 90-minute target, coverage of all 28 primary objectives, and domain balance: 11 / 20 / 16 / 25 / 18.</p>
     <label for="form">Exam form</label><select id="form">${['A','B','C'].map(f=>`<option ${selectedForm===f?'selected':''}>${f}</option>`).join('')}</select>
     <button class="primary" data-action="full" ${count!==26?'disabled':''}>${count===26?'Start full exam →':`Study ${26-count} more sections to unlock`}</button>
     <small>Forms A–C have different sets with overlap. Retake a completed form to keep its exact questions.</small></article></div></section>
@@ -65,7 +65,7 @@ function start(mode) {
       if(sections.some(s=>!state.studied.includes(s.id)))throw Error('Complete all 26 content sections first.');
       pool=fullForm(bank,selectedForm);extra={form:selectedForm,timeLimitMinutes:90,sectionIds:sections.map(s=>s.id)};mode+=' '+selectedForm;
     } else if(mode==='Cumulative practice') {pool=cumulative(bank,state.studied);extra.sectionIds=[...state.studied];}
-    else {pool=shuffle(eligible(bank,selectedSections)).slice(0,90);extra.sectionIds=[...selectedSections];}
+    else {pool=sectionPractice(bank,selectedSections);extra.sectionIds=[...selectedSections];}
     if(!pool.length)throw Error('Choose a section, or mark at least one section studied for cumulative practice.');
     launch(newAttempt(pool,mode,extra));
   } catch(e){alert(e.message);}
