@@ -29,3 +29,5 @@ GitHub Actions tests and publishes only `app/` to Pages on each main-branch push
 Reference resources are local-only and excluded from Git tracking: original PDFs, the research directory, reference downloads, research catalog and source course map. These files remain in the original local project folder and are not supplied by a fresh clone. The app retains its runtime section list, original questions and answer citations so quizzes and source-based review work.
 
 Project repository: [CptHowdy11/ComptiaSecPlusExam](https://github.com/CptHowdy11/ComptiaSecPlusExam). Reference files committed before this change may still exist in older Git commits; this change removes them from the current branch without rewriting history.
+
+Select **Study port flashcards** below the practice modes for 33 cards covering the port list on guide pages 207–208. Flip a card to reveal its purpose, full protocol name, and transport. Previous, Next, and Shuffle keep answers hidden until revealed. Study notes include online sources and transport clarifications. Flashcards do not change exam progress.
