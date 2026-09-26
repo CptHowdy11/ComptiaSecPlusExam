@@ -1,0 +1,3760 @@
+{
+  "guide": "Dion Training Security+ (SY0-701) Study Notes",
+  "pagesReviewed": 405,
+  "cardCount": 345,
+  "sourceSha256": "4eb43dde745e8f7c60e17ddce297e2282b410929a21fb6998c19e2b95c2f7d77",
+  "candidates": [
+    {
+      "term": "AAA",
+      "card": "AAA",
+      "pages": [
+        304
+      ]
+    },
+    {
+      "term": "AAA/RADIUS",
+      "card": "AAA",
+      "pages": [
+        299
+      ]
+    },
+    {
+      "term": "ABAC",
+      "card": "ABAC",
+      "pages": [
+        244
+      ]
+    },
+    {
+      "term": "ACL",
+      "card": "ACL",
+      "pages": [
+        211,
+        212
+      ]
+    },
+    {
+      "term": "ACLs",
+      "card": "ACL",
+      "pages": [
+        80,
+        211,
+        212,
+        344
+      ]
+    },
+    {
+      "term": "ADA",
+      "card": "ADA",
+      "pages": [
+        133
+      ]
+    },
+    {
+      "term": "ADCs",
+      "card": "ADC",
+      "pages": [
+        214
+      ]
+    },
+    {
+      "term": "AES",
+      "card": "AES",
+      "pages": [
+        83,
+        86,
+        87,
+        93,
+        131,
+        303,
+        341
+      ]
+    },
+    {
+      "term": "AH",
+      "card": "AH",
+      "pages": [
+        221
+      ]
+    },
+    {
+      "term": "ALE",
+      "card": "ALE",
+      "pages": [
+        112
+      ]
+    },
+    {
+      "term": "AND",
+      "excluded": "SQL keyword"
+    },
+    {
+      "term": "ANY",
+      "excluded": "XML keyword"
+    },
+    {
+      "term": "API",
+      "card": "API",
+      "pages": [
+        389,
+        390,
+        391
+      ]
+    },
+    {
+      "term": "APIs",
+      "card": "API",
+      "pages": [
+        240,
+        351,
+        380,
+        389,
+        390
+      ]
+    },
+    {
+      "term": "APT",
+      "card": "APT",
+      "pages": [
+        25
+      ]
+    },
+    {
+      "term": "ARF",
+      "card": "ARF",
+      "pages": [
+        346,
+        348
+      ]
+    },
+    {
+      "term": "ARO",
+      "card": "ARO",
+      "pages": [
+        112
+      ]
+    },
+    {
+      "term": "ARP",
+      "card": "ARP",
+      "pages": [
+        278,
+        367
+      ]
+    },
+    {
+      "term": "ASLR",
+      "card": "ASLR",
+      "pages": [
+        264
+      ]
+    },
+    {
+      "term": "AUP",
+      "card": "AUP",
+      "pages": [
+        129
+      ]
+    },
+    {
+      "term": "AWS",
+      "card": "AWS",
+      "pages": [
+        223,
+        297
+      ]
+    },
+    {
+      "term": "AlienVault",
+      "excluded": "Product, company, command, or attribute name; not a standalone acronym"
+    },
+    {
+      "term": "AppArmor",
+      "excluded": "Product, company, command, or attribute name; not a standalone acronym"
+    },
+    {
+      "term": "AppDynamics",
+      "excluded": "Product, company, command, or attribute name; not a standalone acronym"
+    },
+    {
+      "term": "ArcSight",
+      "excluded": "Product, company, command, or attribute name; not a standalone acronym"
+    },
+    {
+      "term": "BC",
+      "card": "BC",
+      "pages": [
+        179
+      ]
+    },
+    {
+      "term": "BC/DR",
+      "card": "BC/DR",
+      "pages": [
+        169
+      ]
+    },
+    {
+      "term": "BEC",
+      "card": "BEC",
+      "pages": [
+        49
+      ]
+    },
+    {
+      "term": "BIA",
+      "card": "BIA",
+      "pages": [
+        108
+      ]
+    },
+    {
+      "term": "BPA",
+      "card": "BPA",
+      "pages": [
+        123
+      ]
+    },
+    {
+      "term": "BYOD",
+      "card": "BYOD",
+      "pages": [
+        27,
+        137,
+        140,
+        141,
+        367,
+        400
+      ]
+    },
+    {
+      "term": "BitLocker",
+      "excluded": "Product, company, command, or attribute name; not a standalone acronym"
+    },
+    {
+      "term": "BlueBorne",
+      "excluded": "Product, company, command, or attribute name; not a standalone acronym"
+    },
+    {
+      "term": "BlueSmack",
+      "excluded": "Product, company, command, or attribute name; not a standalone acronym"
+    },
+    {
+      "term": "CA",
+      "card": "CA",
+      "pages": [
+        96
+      ]
+    },
+    {
+      "term": "CAB",
+      "card": "CAB",
+      "pages": [
+        138,
+        146
+      ]
+    },
+    {
+      "term": "CAM",
+      "card": "CAM",
+      "pages": [
+        216
+      ]
+    },
+    {
+      "term": "CAPTCHAS",
+      "card": "CAPTCHA",
+      "pages": [
+        239
+      ]
+    },
+    {
+      "term": "CASBs",
+      "card": "CASB",
+      "pages": [
+        223
+      ]
+    },
+    {
+      "term": "CASP",
+      "card": "CASP+",
+      "pages": [
+        405
+      ]
+    },
+    {
+      "term": "CAs",
+      "card": "CA",
+      "pages": [
+        96,
+        98
+      ]
+    },
+    {
+      "term": "CCE",
+      "card": "CCE",
+      "pages": [
+        346
+      ]
+    },
+    {
+      "term": "CCMP",
+      "card": "CCMP",
+      "pages": [
+        303
+      ]
+    },
+    {
+      "term": "CCPA",
+      "card": "CCPA",
+      "pages": [
+        133
+      ]
+    },
+    {
+      "term": "CCTV",
+      "card": "CCTV",
+      "pages": [
+        366
+      ]
+    },
+    {
+      "term": "CD",
+      "card": "CD",
+      "pages": [
+        388
+      ]
+    },
+    {
+      "term": "CE",
+      "card": "CE",
+      "pages": [
+        144
+      ]
+    },
+    {
+      "term": "CEOs",
+      "card": "CEO",
+      "pages": [
+        48
+      ]
+    },
+    {
+      "term": "CER",
+      "card": "CER",
+      "pages": [
+        40
+      ]
+    },
+    {
+      "term": "CFOs",
+      "card": "CFO",
+      "pages": [
+        48
+      ]
+    },
+    {
+      "term": "CHIPS",
+      "card": "CHIPS",
+      "pages": [
+        119
+      ]
+    },
+    {
+      "term": "CI",
+      "card": "CI",
+      "pages": [
+        387
+      ]
+    },
+    {
+      "term": "CI/CD",
+      "card": "CI/CD",
+      "pages": [
+        387,
+        388,
+        389
+      ]
+    },
+    {
+      "term": "CIA",
+      "card": "CIA",
+      "pages": [
+        4,
+        5
+      ]
+    },
+    {
+      "term": "CIANA",
+      "card": "CIANA",
+      "pages": [
+        5
+      ]
+    },
+    {
+      "term": "CIO",
+      "card": "CIO",
+      "pages": [
+        74
+      ]
+    },
+    {
+      "term": "CIS",
+      "card": "CIS",
+      "pages": [
+        347
+      ]
+    },
+    {
+      "term": "COOP",
+      "card": "COOP",
+      "pages": [
+        179
+      ]
+    },
+    {
+      "term": "COPE",
+      "card": "COPE",
+      "pages": [
+        137,
+        140,
+        141
+      ]
+    },
+    {
+      "term": "COW",
+      "card": "COW",
+      "pages": [
+        265
+      ]
+    },
+    {
+      "term": "CPE",
+      "card": "CPE",
+      "pages": [
+        346
+      ]
+    },
+    {
+      "term": "CPU",
+      "card": "CPU",
+      "pages": [
+        68,
+        281,
+        334,
+        335,
+        366,
+        367
+      ]
+    },
+    {
+      "term": "CPUs",
+      "card": "CPU",
+      "pages": [
+        188
+      ]
+    },
+    {
+      "term": "CRL",
+      "card": "CRL",
+      "pages": [
+        96,
+        97
+      ]
+    },
+    {
+      "term": "CRYSTALS-Dilithium",
+      "card": "CRYSTALS",
+      "pages": [
+        103
+      ]
+    },
+    {
+      "term": "CRYSTALS-Kyber",
+      "card": "CRYSTALS",
+      "pages": [
+        103
+      ]
+    },
+    {
+      "term": "CSR",
+      "card": "CSR",
+      "pages": [
+        96
+      ]
+    },
+    {
+      "term": "CSRF",
+      "card": "CSRF",
+      "pages": [
+        250
+      ]
+    },
+    {
+      "term": "CURL",
+      "card": "CURL",
+      "pages": [
+        390,
+        391
+      ]
+    },
+    {
+      "term": "CVE",
+      "card": "CVE",
+      "pages": [
+        326,
+        330,
+        347,
+        374
+      ]
+    },
+    {
+      "term": "CVE-2017-0144",
+      "card": "CVE",
+      "pages": [
+        347
+      ]
+    },
+    {
+      "term": "CVE-Year",
+      "card": "CVE",
+      "pages": [
+        347
+      ]
+    },
+    {
+      "term": "CVSS",
+      "card": "CVSS",
+      "pages": [
+        325,
+        347,
+        375
+      ]
+    },
+    {
+      "term": "CYOD",
+      "card": "CYOD",
+      "pages": [
+        137,
+        140,
+        141
+      ]
+    },
+    {
+      "term": "CentOS",
+      "card": "CentOS",
+      "pages": [
+        287,
+        293
+      ]
+    },
+    {
+      "term": "CloudFlare",
+      "excluded": "Product, company, command, or attribute name; not a standalone acronym"
+    },
+    {
+      "term": "CompTIA",
+      "card": "CompTIA",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        72,
+        73,
+        74,
+        75,
+        76,
+        77,
+        78,
+        79,
+        80,
+        81,
+        82,
+        83,
+        84,
+        85,
+        86,
+        87,
+        88,
+        89,
+        90,
+        91,
+        92,
+        93,
+        94,
+        95,
+        96,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        103,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        136,
+        137,
+        138,
+        139,
+        140,
+        141,
+        142,
+        143,
+        144,
+        145,
+        146,
+        147,
+        148,
+        149,
+        150,
+        151,
+        152,
+        153,
+        154,
+        155,
+        156,
+        157,
+        158,
+        159,
+        160,
+        161,
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187,
+        188,
+        189,
+        190,
+        191,
+        192,
+        193,
+        194,
+        195,
+        196,
+        197,
+        198,
+        199,
+        200,
+        201,
+        202,
+        203,
+        204,
+        205,
+        206,
+        207,
+        208,
+        209,
+        210,
+        211,
+        212,
+        213,
+        214,
+        215,
+        216,
+        217,
+        218,
+        219,
+        220,
+        221,
+        222,
+        223,
+        224,
+        225,
+        226,
+        227,
+        228,
+        229,
+        230,
+        231,
+        232,
+        233,
+        234,
+        235,
+        236,
+        237,
+        238,
+        239,
+        240,
+        241,
+        242,
+        243,
+        244,
+        245,
+        246,
+        247,
+        248,
+        249,
+        250,
+        251,
+        252,
+        253,
+        254,
+        255,
+        256,
+        257,
+        258,
+        259,
+        260,
+        261,
+        262,
+        263,
+        264,
+        265,
+        266,
+        267,
+        268,
+        269,
+        270,
+        271,
+        272,
+        273,
+        274,
+        275,
+        276,
+        277,
+        278,
+        279,
+        280,
+        281,
+        282,
+        283,
+        284,
+        285,
+        286,
+        287,
+        288,
+        289,
+        290,
+        291,
+        292,
+        293,
+        294,
+        295,
+        296,
+        297,
+        298,
+        299,
+        300,
+        301,
+        302,
+        303,
+        304,
+        305,
+        306,
+        307,
+        308,
+        309,
+        310,
+        311,
+        312,
+        313,
+        314,
+        315,
+        316,
+        317,
+        318,
+        319,
+        320,
+        321,
+        322,
+        323,
+        324,
+        325,
+        326,
+        327,
+        328,
+        329,
+        330,
+        331,
+        332,
+        333,
+        334,
+        335,
+        336,
+        337,
+        338,
+        339,
+        340,
+        341,
+        342,
+        343,
+        344,
+        345,
+        346,
+        347,
+        348,
+        349,
+        350,
+        351,
+        352,
+        353,
+        354,
+        355,
+        356,
+        357,
+        358,
+        359,
+        360,
+        361,
+        362,
+        363,
+        364,
+        365,
+        366,
+        367,
+        368,
+        369,
+        370,
+        371,
+        372,
+        373,
+        374,
+        375,
+        376,
+        377,
+        378,
+        379,
+        380,
+        381,
+        382,
+        383,
+        384,
+        385,
+        386,
+        387,
+        388,
+        389,
+        390,
+        391,
+        392,
+        393,
+        394,
+        395,
+        396,
+        397,
+        398,
+        399,
+        400,
+        401,
+        402,
+        403,
+        404,
+        405
+      ]
+    },
+    {
+      "term": "CySA",
+      "card": "CySA+",
+      "pages": [
+        405
+      ]
+    },
+    {
+      "term": "DAC",
+      "card": "DAC",
+      "pages": [
+        130,
+        244,
+        293,
+        294
+      ]
+    },
+    {
+      "term": "DAST",
+      "card": "DAST",
+      "pages": [
+        306
+      ]
+    },
+    {
+      "term": "DCS",
+      "card": "DCS",
+      "pages": [
+        201
+      ]
+    },
+    {
+      "term": "DDoS",
+      "card": "DDoS",
+      "pages": [
+        22,
+        23,
+        61,
+        215,
+        267,
+        269,
+        270,
+        281,
+        376
+      ]
+    },
+    {
+      "term": "DES",
+      "card": "DES",
+      "pages": [
+        83,
+        86,
+        87,
+        341
+      ]
+    },
+    {
+      "term": "DJC2",
+      "card": "DJC2",
+      "pages": [
+        181
+      ]
+    },
+    {
+      "term": "DKIM",
+      "card": "DKIM",
+      "pages": [
+        300,
+        310,
+        311
+      ]
+    },
+    {
+      "term": "DLL",
+      "card": "DLL",
+      "pages": [
+        62
+      ]
+    },
+    {
+      "term": "DLLs",
+      "card": "DLL",
+      "pages": [
+        280
+      ]
+    },
+    {
+      "term": "DLP",
+      "card": "DLP",
+      "pages": [
+        72,
+        80,
+        334,
+        344
+      ]
+    },
+    {
+      "term": "DMARC",
+      "card": "DMARC",
+      "pages": [
+        300,
+        311
+      ]
+    },
+    {
+      "term": "DMZ",
+      "card": "DMZ",
+      "pages": [
+        224
+      ]
+    },
+    {
+      "term": "DNS",
+      "card": "DNS",
+      "pages": [
+        31,
+        207,
+        267,
+        268,
+        270,
+        271,
+        272,
+        278,
+        300,
+        308,
+        309,
+        310,
+        370
+      ]
+    },
+    {
+      "term": "DNS-based",
+      "card": "DNS",
+      "pages": [
+        312
+      ]
+    },
+    {
+      "term": "DNSSEC",
+      "card": "DNSSEC",
+      "pages": [
+        271
+      ]
+    },
+    {
+      "term": "DOCTYPE",
+      "excluded": "XML declaration"
+    },
+    {
+      "term": "DOM",
+      "card": "DOM",
+      "pages": [
+        261
+      ]
+    },
+    {
+      "term": "DR",
+      "card": "DR",
+      "pages": [
+        179
+      ]
+    },
+    {
+      "term": "DRP",
+      "card": "DRP",
+      "pages": [
+        179
+      ]
+    },
+    {
+      "term": "DSA",
+      "card": "DSA",
+      "pages": [
+        90
+      ]
+    },
+    {
+      "term": "DSS",
+      "card": "DSS",
+      "pages": [
+        78,
+        91,
+        152,
+        153,
+        159,
+        160,
+        165,
+        343
+      ]
+    },
+    {
+      "term": "DTLS",
+      "card": "DTLS",
+      "pages": [
+        219
+      ]
+    },
+    {
+      "term": "DevOps",
+      "card": "DevOps",
+      "pages": [
+        196
+      ]
+    },
+    {
+      "term": "DionTraining",
+      "excluded": "Product, company, command, or attribute name; not a standalone acronym"
+    },
+    {
+      "term": "DoS",
+      "card": "DoS",
+      "pages": [
+        156,
+        247,
+        269,
+        270
+      ]
+    },
+    {
+      "term": "DomainKeys",
+      "excluded": "Product, company, command, or attribute name; not a standalone acronym"
+    },
+    {
+      "term": "EAL",
+      "card": "EAL",
+      "pages": [
+        287
+      ]
+    },
+    {
+      "term": "EAP",
+      "card": "EAP",
+      "pages": [
+        205,
+        216,
+        217,
+        218,
+        304
+      ]
+    },
+    {
+      "term": "EAP-FAST",
+      "card": "EAP-FAST",
+      "pages": [
+        217,
+        304
+      ]
+    },
+    {
+      "term": "EAP-LEAP",
+      "card": "EAP-LEAP",
+      "pages": [
+        218
+      ]
+    },
+    {
+      "term": "EAP-MD5",
+      "card": "EAP-MD5",
+      "pages": [
+        217
+      ]
+    },
+    {
+      "term": "EAP-TLS",
+      "card": "EAP-TLS",
+      "pages": [
+        217
+      ]
+    },
+    {
+      "term": "EAP-TTLS",
+      "card": "EAP-TTLS",
+      "pages": [
+        217,
+        304
+      ]
+    },
+    {
+      "term": "ECC",
+      "card": "ECC",
+      "pages": [
+        85,
+        89,
+        103
+      ]
+    },
+    {
+      "term": "ECDH",
+      "card": "ECDH",
+      "pages": [
+        89
+      ]
+    },
+    {
+      "term": "ECDHE",
+      "card": "ECDHE",
+      "pages": [
+        89
+      ]
+    },
+    {
+      "term": "ECDSA",
+      "card": "ECDSA",
+      "pages": [
+        89
+      ]
+    },
+    {
+      "term": "EDR",
+      "card": "EDR",
+      "pages": [
+        300,
+        312,
+        313,
+        314
+      ]
+    },
+    {
+      "term": "EEA",
+      "card": "EEA",
+      "pages": [
+        78
+      ]
+    },
+    {
+      "term": "EF",
+      "card": "EF",
+      "pages": [
+        112,
+        326
+      ]
+    },
+    {
+      "term": "ELEMENT",
+      "excluded": "XML keyword"
+    },
+    {
+      "term": "ELK",
+      "card": "ELK",
+      "pages": [
+        343
+      ]
+    },
+    {
+      "term": "EMI",
+      "card": "EMI",
+      "pages": [
+        38
+      ]
+    },
+    {
+      "term": "ENTITY",
+      "excluded": "XML keyword"
+    },
+    {
+      "term": "ESP",
+      "card": "ESP",
+      "pages": [
+        221
+      ]
+    },
+    {
+      "term": "ESS",
+      "card": "ESS",
+      "pages": [
+        301
+      ]
+    },
+    {
+      "term": "ESXi",
+      "card": "ESXi",
+      "pages": [
+        191
+      ]
+    },
+    {
+      "term": "EU",
+      "card": "EU",
+      "pages": [
+        78,
+        133
+      ]
+    },
+    {
+      "term": "EnCase",
+      "excluded": "Product, company, command, or attribute name; not a standalone acronym"
+    },
+    {
+      "term": "ExpressRoutes",
+      "excluded": "Product, company, command, or attribute name; not a standalone acronym"
+    },
+    {
+      "term": "FAR",
+      "card": "FAR",
+      "pages": [
+        40
+      ]
+    },
+    {
+      "term": "FB",
+      "card": "FB",
+      "pages": [
+        3
+      ]
+    },
+    {
+      "term": "FDE",
+      "card": "FDE",
+      "pages": [
+        75
+      ]
+    },
+    {
+      "term": "FIM",
+      "card": "FIM",
+      "pages": [
+        314
+      ]
+    },
+    {
+      "term": "FLACON",
+      "card": "FALCON",
+      "pages": [
+        103
+      ]
+    },
+    {
+      "term": "FPC",
+      "card": "FPC",
+      "pages": [
+        348
+      ]
+    },
+    {
+      "term": "FROM",
+      "excluded": "SQL keyword"
+    },
+    {
+      "term": "FRR",
+      "card": "FRR",
+      "pages": [
+        40
+      ]
+    },
+    {
+      "term": "FTK",
+      "card": "FTK",
+      "pages": [
+        366
+      ]
+    },
+    {
+      "term": "FTP",
+      "card": "FTP",
+      "pages": [
+        207,
+        316
+      ]
+    },
+    {
+      "term": "FaaS",
+      "card": "FaaS",
+      "pages": [
+        192
+      ]
+    },
+    {
+      "term": "FireEye",
+      "excluded": "Product, company, command, or attribute name; not a standalone acronym"
+    },
+    {
+      "term": "GCMP",
+      "card": "GCMP",
+      "pages": [
+        303
+      ]
+    },
+    {
+      "term": "GDPR",
+      "card": "GDPR",
+      "pages": [
+        77,
+        78,
+        133,
+        153,
+        159,
+        160
+      ]
+    },
+    {
+      "term": "GET",
+      "excluded": "Protocol command"
+    },
+    {
+      "term": "GHz",
+      "card": "GHz",
+      "pages": [
+        301
+      ]
+    },
+    {
+      "term": "GLBA",
+      "card": "GLBA",
+      "pages": [
+        165
+      ]
+    },
+    {
+      "term": "GNU",
+      "card": "GNU",
+      "pages": [
+        296
+      ]
+    },
+    {
+      "term": "GPO",
+      "card": "GPO",
+      "pages": [
+        291,
+        297
+      ]
+    },
+    {
+      "term": "GPS",
+      "card": "GPS",
+      "pages": [
+        234
+      ]
+    },
+    {
+      "term": "GRC",
+      "card": "GRC",
+      "pages": [
+        127
+      ]
+    },
+    {
+      "term": "HCL",
+      "card": "HCL",
+      "pages": [
+        197
+      ]
+    },
+    {
+      "term": "HIDS",
+      "card": "HIDS",
+      "pages": [
+        213,
+        214
+      ]
+    },
+    {
+      "term": "HIPAA",
+      "card": "HIPAA",
+      "pages": [
+        77,
+        153,
+        159,
+        160,
+        161,
+        165,
+        343
+      ]
+    },
+    {
+      "term": "HKLM/Hardware",
+      "card": "HKLM",
+      "pages": [
+        367
+      ]
+    },
+    {
+      "term": "HMAC",
+      "card": "HMAC",
+      "pages": [
+        84,
+        90
+      ]
+    },
+    {
+      "term": "HMAC-MD5",
+      "card": "HMAC-MD5",
+      "pages": [
+        90
+      ]
+    },
+    {
+      "term": "HMAC-SHA1",
+      "card": "HMAC-SHA1",
+      "pages": [
+        90
+      ]
+    },
+    {
+      "term": "HMAC-SHA256",
+      "card": "HMAC-SHA256",
+      "pages": [
+        90
+      ]
+    },
+    {
+      "term": "HR",
+      "card": "HR",
+      "pages": [
+        358,
+        383
+      ]
+    },
+    {
+      "term": "HSM",
+      "card": "HSM",
+      "pages": [
+        84,
+        100
+      ]
+    },
+    {
+      "term": "HTML",
+      "card": "HTML",
+      "pages": [
+        262
+      ]
+    },
+    {
+      "term": "HTML-based",
+      "card": "HTML",
+      "pages": [
+        50
+      ]
+    },
+    {
+      "term": "HTTP",
+      "card": "HTTP",
+      "pages": [
+        207,
+        208,
+        210,
+        258,
+        271,
+        279,
+        316,
+        317,
+        390
+      ]
+    },
+    {
+      "term": "HTTPS",
+      "card": "HTTPS",
+      "pages": [
+        93,
+        97,
+        207,
+        208,
+        219,
+        279,
+        305,
+        316,
+        317,
+        390
+      ]
+    },
+    {
+      "term": "HackerOne",
+      "excluded": "Product, company, command, or attribute name; not a standalone acronym"
+    },
+    {
+      "term": "HttpOnly",
+      "excluded": "Product, company, command, or attribute name; not a standalone acronym"
+    },
+    {
+      "term": "IAAA",
+      "card": "IAAA",
+      "pages": [
+        229
+      ]
+    },
+    {
+      "term": "IAM",
+      "card": "IAM",
+      "pages": [
+        229,
+        230,
+        232,
+        233
+      ]
+    },
+    {
+      "term": "IANA",
+      "card": "IANA",
+      "pages": [
+        206
+      ]
+    },
+    {
+      "term": "IBM",
+      "card": "IBM",
+      "pages": [
+        99,
+        343
+      ]
+    },
+    {
+      "term": "ICMP",
+      "card": "ICMP",
+      "pages": [
+        269
+      ]
+    },
+    {
+      "term": "ICS",
+      "card": "ICS",
+      "pages": [
+        185,
+        201,
+        202
+      ]
+    },
+    {
+      "term": "ID",
+      "card": "ID",
+      "pages": [
+        241,
+        244,
+        259,
+        372,
+        374
+      ]
+    },
+    {
+      "term": "IDEA",
+      "card": "IDEA",
+      "pages": [
+        83,
+        86
+      ]
+    },
+    {
+      "term": "IDS",
+      "card": "IDS",
+      "pages": [
+        204,
+        213,
+        214,
+        369
+      ]
+    },
+    {
+      "term": "IEEE",
+      "card": "IEEE",
+      "pages": [
+        302,
+        308
+      ]
+    },
+    {
+      "term": "IKE",
+      "card": "IKE",
+      "pages": [
+        220
+      ]
+    },
+    {
+      "term": "IMAP",
+      "card": "IMAP",
+      "pages": [
+        207,
+        208
+      ]
+    },
+    {
+      "term": "IMAPS",
+      "card": "IMAPS",
+      "pages": [
+        208,
+        316
+      ]
+    },
+    {
+      "term": "INTEL",
+      "excluded": "Company name, not an acronym"
+    },
+    {
+      "term": "IP",
+      "card": "IP",
+      "pages": [
+        23,
+        76,
+        77,
+        95,
+        196,
+        209,
+        220,
+        221,
+        234,
+        262,
+        270,
+        277,
+        309,
+        310,
+        322,
+        339,
+        349,
+        370,
+        373,
+        375,
+        376
+      ]
+    },
+    {
+      "term": "IPFIX",
+      "card": "IPFIX",
+      "pages": [
+        349,
+        370
+      ]
+    },
+    {
+      "term": "IPS",
+      "card": "IPS",
+      "pages": [
+        204,
+        213,
+        214,
+        249,
+        256,
+        369
+      ]
+    },
+    {
+      "term": "IPSec",
+      "card": "IPSec",
+      "pages": [
+        76,
+        88,
+        203,
+        205,
+        220,
+        221
+      ]
+    },
+    {
+      "term": "IPs",
+      "card": "IP",
+      "pages": [
+        310
+      ]
+    },
+    {
+      "term": "ISAKMP",
+      "card": "ISAKMP",
+      "pages": [
+        220
+      ]
+    },
+    {
+      "term": "ISO",
+      "card": "ISO",
+      "pages": [
+        228,
+        296
+      ]
+    },
+    {
+      "term": "IT",
+      "card": "IT",
+      "pages": [
+        19,
+        27,
+        74,
+        120,
+        124,
+        127,
+        129,
+        130,
+        135,
+        180,
+        196,
+        240,
+        242,
+        350,
+        357,
+        381,
+        382,
+        383,
+        384
+      ]
+    },
+    {
+      "term": "IT-related",
+      "card": "IT",
+      "pages": [
+        27
+      ]
+    },
+    {
+      "term": "IaC",
+      "card": "IaC",
+      "pages": [
+        185,
+        196,
+        197
+      ]
+    },
+    {
+      "term": "IaaS",
+      "card": "IaaS",
+      "pages": [
+        223
+      ]
+    },
+    {
+      "term": "IdP",
+      "card": "IdP",
+      "pages": [
+        240,
+        242
+      ]
+    },
+    {
+      "term": "IoC",
+      "card": "IoC",
+      "pages": [
+        268,
+        280,
+        322
+      ]
+    },
+    {
+      "term": "IoT",
+      "card": "IoT",
+      "pages": [
+        185,
+        199,
+        200
+      ]
+    },
+    {
+      "term": "JIT",
+      "card": "JIT",
+      "pages": [
+        231,
+        243
+      ]
+    },
+    {
+      "term": "JSON",
+      "card": "JSON",
+      "pages": [
+        197,
+        241,
+        390,
+        391
+      ]
+    },
+    {
+      "term": "JV",
+      "card": "JV",
+      "pages": [
+        123
+      ]
+    },
+    {
+      "term": "JWT",
+      "card": "JWT",
+      "pages": [
+        241
+      ]
+    },
+    {
+      "term": "JournalCTL",
+      "excluded": "Product, company, command, or attribute name; not a standalone acronym"
+    },
+    {
+      "term": "KRIs",
+      "card": "KRI",
+      "pages": [
+        110
+      ]
+    },
+    {
+      "term": "LDAP",
+      "card": "LDAP",
+      "pages": [
+        208,
+        231,
+        240,
+        279
+      ]
+    },
+    {
+      "term": "LDAPS",
+      "card": "LDAPS",
+      "pages": [
+        208,
+        240
+      ]
+    },
+    {
+      "term": "LastPass",
+      "excluded": "Product, company, command, or attribute name; not a standalone acronym"
+    },
+    {
+      "term": "MAC",
+      "card": "MAC",
+      "pages": [
+        29,
+        130,
+        205,
+        216,
+        243,
+        288,
+        292,
+        293,
+        294
+      ]
+    },
+    {
+      "term": "MACs",
+      "card": "MAC",
+      "pages": [
+        216
+      ]
+    },
+    {
+      "term": "MCIT",
+      "card": "MCIT",
+      "pages": [
+        157
+      ]
+    },
+    {
+      "term": "MD5",
+      "card": "MD5",
+      "pages": [
+        84,
+        89,
+        90,
+        102
+      ]
+    },
+    {
+      "term": "MD5/SHA256",
+      "card": "MD5",
+      "pages": [
+        376
+      ]
+    },
+    {
+      "term": "MDM",
+      "card": "MDM",
+      "pages": [
+        138,
+        141,
+        142,
+        255,
+        290
+      ]
+    },
+    {
+      "term": "MFA",
+      "card": "MFA",
+      "pages": [
+        11,
+        42,
+        60,
+        230,
+        234,
+        235
+      ]
+    },
+    {
+      "term": "MIB",
+      "card": "MIB",
+      "pages": [
+        340
+      ]
+    },
+    {
+      "term": "MIC",
+      "card": "MIC",
+      "pages": [
+        303
+      ]
+    },
+    {
+      "term": "MIME",
+      "card": "MIME",
+      "pages": [
+        390
+      ]
+    },
+    {
+      "term": "MOA",
+      "card": "MOA",
+      "pages": [
+        123
+      ]
+    },
+    {
+      "term": "MOU",
+      "card": "MOU",
+      "pages": [
+        123
+      ]
+    },
+    {
+      "term": "MOUs",
+      "card": "MOU",
+      "pages": [
+        117
+      ]
+    },
+    {
+      "term": "MPLS",
+      "card": "MPLS",
+      "pages": [
+        222
+      ]
+    },
+    {
+      "term": "MRTG",
+      "card": "MRTG",
+      "pages": [
+        350
+      ]
+    },
+    {
+      "term": "MSA",
+      "card": "MSA",
+      "pages": [
+        123
+      ]
+    },
+    {
+      "term": "MSPs",
+      "card": "MSP",
+      "pages": [
+        118,
+        120
+      ]
+    },
+    {
+      "term": "MSS",
+      "card": "MSS",
+      "pages": [
+        376
+      ]
+    },
+    {
+      "term": "MTBF",
+      "card": "MTBF",
+      "pages": [
+        108
+      ]
+    },
+    {
+      "term": "MTTR",
+      "card": "MTTR",
+      "pages": [
+        108
+      ]
+    },
+    {
+      "term": "MTU",
+      "card": "MTU",
+      "pages": [
+        220,
+        221
+      ]
+    },
+    {
+      "term": "MacOS",
+      "excluded": "Product, company, command, or attribute name; not a standalone acronym"
+    },
+    {
+      "term": "McAfee",
+      "excluded": "Product, company, command, or attribute name; not a standalone acronym"
+    },
+    {
+      "term": "NAC",
+      "card": "NAC",
+      "pages": [
+        299,
+        307,
+        308,
+        322
+      ]
+    },
+    {
+      "term": "NDA",
+      "card": "NDA",
+      "pages": [
+        123
+      ]
+    },
+    {
+      "term": "NDAs",
+      "card": "NDA",
+      "pages": [
+        117
+      ]
+    },
+    {
+      "term": "NET",
+      "excluded": "Payment term, not an acronym"
+    },
+    {
+      "term": "NFC",
+      "card": "NFC",
+      "pages": [
+        33,
+        39,
+        40,
+        41
+      ]
+    },
+    {
+      "term": "NFC-enabled",
+      "card": "NFC",
+      "pages": [
+        41
+      ]
+    },
+    {
+      "term": "NGFW",
+      "card": "NGFW",
+      "pages": [
+        209,
+        210
+      ]
+    },
+    {
+      "term": "NIDS",
+      "card": "NIDS",
+      "pages": [
+        213,
+        334,
+        344
+      ]
+    },
+    {
+      "term": "NIPS",
+      "card": "NIPS",
+      "pages": [
+        334,
+        344
+      ]
+    },
+    {
+      "term": "NIST",
+      "card": "NIST",
+      "pages": [
+        103,
+        143,
+        159,
+        228,
+        297,
+        345,
+        355
+      ]
+    },
+    {
+      "term": "NNTP",
+      "card": "NNTP",
+      "pages": [
+        207
+      ]
+    },
+    {
+      "term": "NOP",
+      "card": "NOP",
+      "pages": [
+        263
+      ]
+    },
+    {
+      "term": "NSA",
+      "card": "NSA",
+      "pages": [
+        293
+      ]
+    },
+    {
+      "term": "NXLog",
+      "excluded": "Product, company, command, or attribute name; not a standalone acronym"
+    },
+    {
+      "term": "NetBIOS",
+      "card": "NetBIOS",
+      "pages": [
+        207
+      ]
+    },
+    {
+      "term": "NetFlow",
+      "excluded": "Product, company, command, or attribute name; not a standalone acronym"
+    },
+    {
+      "term": "OAuth",
+      "card": "OAuth",
+      "pages": [
+        231,
+        240
+      ]
+    },
+    {
+      "term": "OCSP",
+      "card": "OCSP",
+      "pages": [
+        97
+      ]
+    },
+    {
+      "term": "OID",
+      "card": "OID",
+      "pages": [
+        340
+      ]
+    },
+    {
+      "term": "OIDs",
+      "card": "OID",
+      "pages": [
+        340
+      ]
+    },
+    {
+      "term": "OPSEC",
+      "card": "OPSEC",
+      "pages": [
+        397
+      ]
+    },
+    {
+      "term": "OR",
+      "excluded": "SQL operator"
+    },
+    {
+      "term": "OS",
+      "card": "OS",
+      "pages": [
+        56,
+        91,
+        191,
+        192,
+        286,
+        288,
+        289,
+        295,
+        362,
+        370
+      ]
+    },
+    {
+      "term": "OS-Specific",
+      "card": "OS",
+      "pages": [
+        369
+      ]
+    },
+    {
+      "term": "OSI",
+      "card": "OSI",
+      "pages": [
+        216
+      ]
+    },
+    {
+      "term": "OSINT",
+      "card": "OSINT",
+      "pages": [
+        323
+      ]
+    },
+    {
+      "term": "OTA",
+      "card": "OTA",
+      "pages": [
+        203
+      ]
+    },
+    {
+      "term": "OTP",
+      "card": "OTP",
+      "pages": [
+        238
+      ]
+    },
+    {
+      "term": "OVAL",
+      "card": "OVAL",
+      "pages": [
+        346,
+        348
+      ]
+    },
+    {
+      "term": "OnVue",
+      "excluded": "Product, company, command, or attribute name; not a standalone acronym"
+    },
+    {
+      "term": "OnePass",
+      "excluded": "Product, company, command, or attribute name; not a standalone acronym"
+    },
+    {
+      "term": "OpenID",
+      "card": "OpenID",
+      "pages": [
+        233
+      ]
+    },
+    {
+      "term": "OpenShift",
+      "excluded": "Product, company, command, or attribute name; not a standalone acronym"
+    },
+    {
+      "term": "OpenVAS",
+      "card": "OpenVAS",
+      "pages": [
+        320,
+        337
+      ]
+    },
+    {
+      "term": "PAM",
+      "card": "PAM",
+      "pages": [
+        231,
+        242
+      ]
+    },
+    {
+      "term": "PC1",
+      "card": "PC",
+      "pages": [
+        220
+      ]
+    },
+    {
+      "term": "PC2",
+      "card": "PC",
+      "pages": [
+        220
+      ]
+    },
+    {
+      "term": "PCI",
+      "card": "PCI",
+      "pages": [
+        78,
+        152,
+        153,
+        159,
+        160,
+        165,
+        343
+      ]
+    },
+    {
+      "term": "PDC",
+      "card": "PDC",
+      "pages": [
+        176
+      ]
+    },
+    {
+      "term": "PDCs",
+      "card": "PDC",
+      "pages": [
+        168
+      ]
+    },
+    {
+      "term": "PDOS",
+      "card": "PDOS",
+      "pages": [
+        269
+      ]
+    },
+    {
+      "term": "PEAP",
+      "card": "PEAP",
+      "pages": [
+        217,
+        304
+      ]
+    },
+    {
+      "term": "PHI",
+      "card": "PHI",
+      "pages": [
+        74,
+        77
+      ]
+    },
+    {
+      "term": "PII",
+      "card": "PII",
+      "pages": [
+        74,
+        77
+      ]
+    },
+    {
+      "term": "PIN",
+      "card": "PIN",
+      "pages": [
+        234,
+        254
+      ]
+    },
+    {
+      "term": "PINs",
+      "card": "PIN",
+      "pages": [
+        41,
+        235
+      ]
+    },
+    {
+      "term": "PKI",
+      "card": "PKI",
+      "pages": [
+        84,
+        93,
+        94,
+        95
+      ]
+    },
+    {
+      "term": "PLCs",
+      "card": "PLC",
+      "pages": [
+        201
+      ]
+    },
+    {
+      "term": "POA",
+      "card": "POA&M",
+      "pages": [
+        16
+      ]
+    },
+    {
+      "term": "POODLE",
+      "card": "POODLE",
+      "pages": [
+        102
+      ]
+    },
+    {
+      "term": "POP3",
+      "card": "POP3",
+      "pages": [
+        207,
+        208
+      ]
+    },
+    {
+      "term": "POP3S",
+      "card": "POP3S",
+      "pages": [
+        208,
+        316
+      ]
+    },
+    {
+      "term": "POST",
+      "excluded": "HTTP method"
+    },
+    {
+      "term": "PRTG",
+      "card": "PRTG",
+      "pages": [
+        335
+      ]
+    },
+    {
+      "term": "PTZ",
+      "card": "PTZ",
+      "pages": [
+        36
+      ]
+    },
+    {
+      "term": "PaaS",
+      "card": "PaaS",
+      "pages": [
+        223
+      ]
+    },
+    {
+      "term": "ParrotOS",
+      "excluded": "Product, company, command, or attribute name; not a standalone acronym"
+    },
+    {
+      "term": "PearsonVUE",
+      "excluded": "Product, company, command, or attribute name; not a standalone acronym"
+    },
+    {
+      "term": "PearsonVue",
+      "excluded": "Product, company, command, or attribute name; not a standalone acronym"
+    },
+    {
+      "term": "PenTest",
+      "excluded": "Product, company, command, or attribute name; not a standalone acronym"
+    },
+    {
+      "term": "QRadar",
+      "excluded": "Product, company, command, or attribute name; not a standalone acronym"
+    },
+    {
+      "term": "RA",
+      "card": "RA",
+      "pages": [
+        96
+      ]
+    },
+    {
+      "term": "RACE",
+      "card": "RACE",
+      "pages": [
+        90
+      ]
+    },
+    {
+      "term": "RADIUS",
+      "card": "RADIUS",
+      "pages": [
+        208,
+        216,
+        217,
+        304
+      ]
+    },
+    {
+      "term": "RAID",
+      "card": "RAID",
+      "pages": [
+        168,
+        171,
+        172,
+        173
+      ]
+    },
+    {
+      "term": "RAIDs",
+      "card": "RAID",
+      "pages": [
+        173
+      ]
+    },
+    {
+      "term": "RAM",
+      "card": "RAM",
+      "pages": [
+        367
+      ]
+    },
+    {
+      "term": "RAT",
+      "card": "RAT",
+      "pages": [
+        59,
+        63
+      ]
+    },
+    {
+      "term": "RBAC",
+      "card": "RBAC",
+      "pages": [
+        80,
+        130,
+        244,
+        387
+      ]
+    },
+    {
+      "term": "RC",
+      "card": "RC",
+      "pages": [
+        87
+      ]
+    },
+    {
+      "term": "RC4",
+      "card": "RC4",
+      "pages": [
+        87
+      ]
+    },
+    {
+      "term": "RC5",
+      "card": "RC5",
+      "pages": [
+        87
+      ]
+    },
+    {
+      "term": "RC6",
+      "card": "RC6",
+      "pages": [
+        87
+      ]
+    },
+    {
+      "term": "RCA",
+      "card": "RCA",
+      "pages": [
+        359,
+        360
+      ]
+    },
+    {
+      "term": "RDP",
+      "card": "RDP",
+      "pages": [
+        208
+      ]
+    },
+    {
+      "term": "REST",
+      "card": "REST",
+      "pages": [
+        390
+      ]
+    },
+    {
+      "term": "RESTful",
+      "card": "REST",
+      "pages": [
+        240
+      ]
+    },
+    {
+      "term": "RFID",
+      "card": "RFID",
+      "pages": [
+        33,
+        39,
+        40,
+        41,
+        42
+      ]
+    },
+    {
+      "term": "RIPEMD",
+      "card": "RIPEMD",
+      "pages": [
+        84,
+        90
+      ]
+    },
+    {
+      "term": "RPC",
+      "card": "RPC",
+      "pages": [
+        207
+      ]
+    },
+    {
+      "term": "RPO",
+      "card": "RPO",
+      "pages": [
+        108,
+        177
+      ]
+    },
+    {
+      "term": "RSA",
+      "card": "RSA",
+      "pages": [
+        83,
+        85,
+        88,
+        89,
+        91,
+        103,
+        131,
+        304
+      ]
+    },
+    {
+      "term": "RTO",
+      "card": "RTO",
+      "pages": [
+        108
+      ]
+    },
+    {
+      "term": "RTOS",
+      "card": "RTOS",
+      "pages": [
+        202
+      ]
+    },
+    {
+      "term": "RTR1",
+      "card": "RTR",
+      "pages": [
+        220
+      ]
+    },
+    {
+      "term": "RTR2",
+      "card": "RTR",
+      "pages": [
+        220
+      ]
+    },
+    {
+      "term": "SAE",
+      "card": "SAE",
+      "pages": [
+        303
+      ]
+    },
+    {
+      "term": "SAML",
+      "card": "SAML",
+      "pages": [
+        231,
+        233,
+        241
+      ]
+    },
+    {
+      "term": "SAN",
+      "card": "SAN",
+      "pages": [
+        95
+      ]
+    },
+    {
+      "term": "SANS",
+      "card": "SANS",
+      "pages": [
+        323
+      ]
+    },
+    {
+      "term": "SASE",
+      "card": "SASE",
+      "pages": [
+        205,
+        221,
+        223,
+        224
+      ]
+    },
+    {
+      "term": "SAST",
+      "card": "SAST",
+      "pages": [
+        306
+      ]
+    },
+    {
+      "term": "SCADA",
+      "card": "SCADA",
+      "pages": [
+        185,
+        201,
+        202
+      ]
+    },
+    {
+      "term": "SCAP",
+      "card": "SCAP",
+      "pages": [
+        334,
+        345,
+        346,
+        347,
+        348
+      ]
+    },
+    {
+      "term": "SCP",
+      "card": "SCP",
+      "pages": [
+        207
+      ]
+    },
+    {
+      "term": "SD-WAN",
+      "card": "SD-WAN",
+      "pages": [
+        205,
+        221,
+        222,
+        224
+      ]
+    },
+    {
+      "term": "SDLC",
+      "card": "SDLC",
+      "pages": [
+        125,
+        130
+      ]
+    },
+    {
+      "term": "SDN",
+      "card": "SDN",
+      "pages": [
+        185,
+        195,
+        196,
+        223
+      ]
+    },
+    {
+      "term": "SECURITY-002-0001",
+      "excluded": "Example identifier"
+    },
+    {
+      "term": "SELECT",
+      "excluded": "SQL keyword"
+    },
+    {
+      "term": "SELinux",
+      "card": "SELinux",
+      "pages": [
+        284,
+        287,
+        292,
+        293,
+        294,
+        295
+      ]
+    },
+    {
+      "term": "SET",
+      "excluded": "Protocol command"
+    },
+    {
+      "term": "SFTP",
+      "card": "SFTP",
+      "pages": [
+        207,
+        316
+      ]
+    },
+    {
+      "term": "SFlow",
+      "card": "SFlow",
+      "pages": [
+        370
+      ]
+    },
+    {
+      "term": "SHA",
+      "card": "SHA",
+      "pages": [
+        84,
+        90
+      ]
+    },
+    {
+      "term": "SHA-1",
+      "card": "SHA-1",
+      "pages": [
+        90
+      ]
+    },
+    {
+      "term": "SHA-2",
+      "card": "SHA-2",
+      "pages": [
+        90
+      ]
+    },
+    {
+      "term": "SHA-224",
+      "card": "SHA-224",
+      "pages": [
+        90
+      ]
+    },
+    {
+      "term": "SHA-256",
+      "card": "SHA-256",
+      "pages": [
+        90,
+        92
+      ]
+    },
+    {
+      "term": "SHA-3",
+      "card": "SHA-3",
+      "pages": [
+        90
+      ]
+    },
+    {
+      "term": "SHA-384",
+      "card": "SHA-384",
+      "pages": [
+        90
+      ]
+    },
+    {
+      "term": "SHA-512",
+      "card": "SHA-512",
+      "pages": [
+        90
+      ]
+    },
+    {
+      "term": "SIEM",
+      "card": "SIEM",
+      "pages": [
+        13,
+        333,
+        334,
+        341,
+        342,
+        343,
+        344,
+        345,
+        359,
+        369,
+        370,
+        377
+      ]
+    },
+    {
+      "term": "SLA",
+      "card": "SLA",
+      "pages": [
+        123
+      ]
+    },
+    {
+      "term": "SLAs",
+      "card": "SLA",
+      "pages": [
+        117
+      ]
+    },
+    {
+      "term": "SLE",
+      "card": "SLE",
+      "pages": [
+        112
+      ]
+    },
+    {
+      "term": "SMB",
+      "card": "SMB",
+      "pages": [
+        208
+      ]
+    },
+    {
+      "term": "SMS",
+      "card": "SMS",
+      "pages": [
+        28,
+        49,
+        336
+      ]
+    },
+    {
+      "term": "SMTP",
+      "card": "SMTP",
+      "pages": [
+        207,
+        208,
+        311
+      ]
+    },
+    {
+      "term": "SMTPS",
+      "card": "SMTPS",
+      "pages": [
+        208,
+        317
+      ]
+    },
+    {
+      "term": "SNMP",
+      "card": "SNMP",
+      "pages": [
+        208,
+        333,
+        339,
+        340,
+        341,
+        350
+      ]
+    },
+    {
+      "term": "SNMPS",
+      "card": "SNMPS",
+      "pages": [
+        317
+      ]
+    },
+    {
+      "term": "SNMPTrap",
+      "card": "SNMPTrap",
+      "pages": [
+        208
+      ]
+    },
+    {
+      "term": "SOAP",
+      "card": "SOAP",
+      "pages": [
+        390
+      ]
+    },
+    {
+      "term": "SOAR",
+      "card": "SOAR",
+      "pages": [
+        377
+      ]
+    },
+    {
+      "term": "SOPs",
+      "card": "SOP",
+      "pages": [
+        148,
+        352
+      ]
+    },
+    {
+      "term": "SOW",
+      "card": "SOW",
+      "pages": [
+        123
+      ]
+    },
+    {
+      "term": "SOX",
+      "card": "SOX",
+      "pages": [
+        343
+      ]
+    },
+    {
+      "term": "SP",
+      "card": "SP",
+      "pages": [
+        242,
+        297
+      ]
+    },
+    {
+      "term": "SPF",
+      "card": "SPF",
+      "pages": [
+        300,
+        310,
+        311
+      ]
+    },
+    {
+      "term": "SPHINCS",
+      "card": "SPHINCS+",
+      "pages": [
+        103
+      ]
+    },
+    {
+      "term": "SPI",
+      "card": "SPI",
+      "pages": [
+        74
+      ]
+    },
+    {
+      "term": "SPOG",
+      "card": "SPOG",
+      "pages": [
+        350,
+        351,
+        352
+      ]
+    },
+    {
+      "term": "SQL",
+      "card": "SQL",
+      "pages": [
+        156,
+        208,
+        210,
+        249,
+        257,
+        258,
+        305,
+        306
+      ]
+    },
+    {
+      "term": "SSH",
+      "card": "SSH",
+      "pages": [
+        206,
+        207,
+        271,
+        316
+      ]
+    },
+    {
+      "term": "SSL",
+      "card": "SSL",
+      "pages": [
+        76,
+        87,
+        102,
+        240,
+        278,
+        279
+      ]
+    },
+    {
+      "term": "SSL/TLS",
+      "card": "SSL/TLS",
+      "pages": [
+        97,
+        208
+      ]
+    },
+    {
+      "term": "SSO",
+      "card": "SSO",
+      "pages": [
+        231,
+        239,
+        240
+      ]
+    },
+    {
+      "term": "SY0-701",
+      "excluded": "Exam identifier"
+    },
+    {
+      "term": "SYN",
+      "card": "SYN",
+      "pages": [
+        269,
+        376
+      ]
+    },
+    {
+      "term": "SYSTEM",
+      "excluded": "XML keyword"
+    },
+    {
+      "term": "SaaS",
+      "card": "SaaS",
+      "pages": [
+        118,
+        223
+      ]
+    },
+    {
+      "term": "SameSite",
+      "excluded": "Product, company, command, or attribute name; not a standalone acronym"
+    },
+    {
+      "term": "SolarWinds",
+      "excluded": "Product, company, command, or attribute name; not a standalone acronym"
+    },
+    {
+      "term": "StartTLS",
+      "card": "StartTLS",
+      "pages": [
+        240
+      ]
+    },
+    {
+      "term": "SystemD",
+      "excluded": "Product, company, command, or attribute name; not a standalone acronym"
+    },
+    {
+      "term": "TACACS",
+      "card": "TACACS+",
+      "pages": [
+        217,
+        304
+      ]
+    },
+    {
+      "term": "TCP",
+      "card": "TCP",
+      "pages": [
+        207,
+        208,
+        219,
+        269,
+        304,
+        317,
+        375
+      ]
+    },
+    {
+      "term": "TCP/UDP",
+      "card": "TCP/UDP",
+      "pages": [
+        207
+      ]
+    },
+    {
+      "term": "TFTP",
+      "card": "TFTP",
+      "pages": [
+        207
+      ]
+    },
+    {
+      "term": "TKIP",
+      "card": "TKIP",
+      "pages": [
+        302,
+        303
+      ]
+    },
+    {
+      "term": "TLS",
+      "card": "TLS",
+      "pages": [
+        76,
+        205,
+        208,
+        219,
+        258,
+        278,
+        304,
+        305
+      ]
+    },
+    {
+      "term": "TOC",
+      "card": "TOC",
+      "pages": [
+        250,
+        265
+      ]
+    },
+    {
+      "term": "TOE",
+      "card": "TOE",
+      "pages": [
+        250,
+        265
+      ]
+    },
+    {
+      "term": "TOS",
+      "card": "TOS",
+      "pages": [
+        287
+      ]
+    },
+    {
+      "term": "TOU",
+      "card": "TOU",
+      "pages": [
+        250,
+        265
+      ]
+    },
+    {
+      "term": "TPM",
+      "card": "TPM",
+      "pages": [
+        84,
+        100
+      ]
+    },
+    {
+      "term": "TRAP",
+      "excluded": "Protocol message name"
+    },
+    {
+      "term": "TRAPS",
+      "excluded": "Protocol message name"
+    },
+    {
+      "term": "TTPs",
+      "card": "TTP",
+      "pages": [
+        30,
+        359
+      ]
+    },
+    {
+      "term": "TTX",
+      "card": "TTX",
+      "pages": [
+        361
+      ]
+    },
+    {
+      "term": "UAC",
+      "card": "UAC",
+      "pages": [
+        246
+      ]
+    },
+    {
+      "term": "UBA",
+      "card": "UBA",
+      "pages": [
+        300,
+        315
+      ]
+    },
+    {
+      "term": "UDP",
+      "card": "UDP",
+      "pages": [
+        207,
+        208,
+        317,
+        375
+      ]
+    },
+    {
+      "term": "UDP-based",
+      "card": "UDP",
+      "pages": [
+        219
+      ]
+    },
+    {
+      "term": "UEBA",
+      "card": "UEBA",
+      "pages": [
+        315
+      ]
+    },
+    {
+      "term": "UNIX",
+      "excluded": "Operating system name, not a current initialism"
+    },
+    {
+      "term": "UPS",
+      "card": "UPS",
+      "pages": [
+        10,
+        168,
+        175,
+        176
+      ]
+    },
+    {
+      "term": "URIs",
+      "card": "URI",
+      "pages": [
+        390
+      ]
+    },
+    {
+      "term": "URL",
+      "card": "URL",
+      "pages": [
+        47,
+        50,
+        241,
+        258,
+        260,
+        300,
+        309
+      ]
+    },
+    {
+      "term": "URLs",
+      "card": "URL",
+      "pages": [
+        50,
+        309,
+        322
+      ]
+    },
+    {
+      "term": "US",
+      "card": "US",
+      "pages": [
+        87,
+        133,
+        174
+      ]
+    },
+    {
+      "term": "USB",
+      "card": "USB",
+      "pages": [
+        29,
+        54,
+        55,
+        64,
+        360,
+        397
+      ]
+    },
+    {
+      "term": "USERS",
+      "excluded": "Example table name"
+    },
+    {
+      "term": "UTF-8",
+      "card": "UTF-8",
+      "pages": [
+        259
+      ]
+    },
+    {
+      "term": "UTM",
+      "card": "UTM",
+      "pages": [
+        210
+      ]
+    },
+    {
+      "term": "UTMs",
+      "card": "UTM",
+      "pages": [
+        210
+      ]
+    },
+    {
+      "term": "VLAN",
+      "card": "VLAN",
+      "pages": [
+        29
+      ]
+    },
+    {
+      "term": "VLANs",
+      "card": "VLAN",
+      "pages": [
+        195
+      ]
+    },
+    {
+      "term": "VM",
+      "card": "VM",
+      "pages": [
+        189,
+        191,
+        192
+      ]
+    },
+    {
+      "term": "VMs",
+      "card": "VM",
+      "pages": [
+        189,
+        191,
+        192
+      ]
+    },
+    {
+      "term": "VMware",
+      "excluded": "Product, company, command, or attribute name; not a standalone acronym"
+    },
+    {
+      "term": "VPC",
+      "card": "VPC",
+      "pages": [
+        223
+      ]
+    },
+    {
+      "term": "VPN",
+      "card": "VPN",
+      "pages": [
+        76,
+        88,
+        218,
+        219,
+        220,
+        221,
+        224,
+        255,
+        307,
+        400
+      ]
+    },
+    {
+      "term": "VPNs",
+      "card": "VPN",
+      "pages": [
+        205,
+        218,
+        219,
+        220,
+        221,
+        223,
+        279
+      ]
+    },
+    {
+      "term": "VUE",
+      "card": "VUE",
+      "pages": [
+        403
+      ]
+    },
+    {
+      "term": "VeraCrypt",
+      "excluded": "Product, company, command, or attribute name; not a standalone acronym"
+    },
+    {
+      "term": "VirtualBox",
+      "excluded": "Product, company, command, or attribute name; not a standalone acronym"
+    },
+    {
+      "term": "VoIP",
+      "card": "VoIP",
+      "pages": [
+        370
+      ]
+    },
+    {
+      "term": "WAF",
+      "card": "WAF",
+      "pages": [
+        210
+      ]
+    },
+    {
+      "term": "WAN",
+      "card": "WAN",
+      "pages": [
+        205,
+        222,
+        223
+      ]
+    },
+    {
+      "term": "WANs",
+      "card": "WAN",
+      "pages": [
+        222
+      ]
+    },
+    {
+      "term": "WAP",
+      "card": "WAP",
+      "pages": [
+        301,
+        302
+      ]
+    },
+    {
+      "term": "WAPs",
+      "card": "WAP",
+      "pages": [
+        300,
+        301
+      ]
+    },
+    {
+      "term": "WARNING",
+      "excluded": "Ordinary word"
+    },
+    {
+      "term": "WEP",
+      "card": "WEP",
+      "pages": [
+        87,
+        276,
+        302
+      ]
+    },
+    {
+      "term": "WHERE",
+      "excluded": "SQL keyword"
+    },
+    {
+      "term": "WHOIS",
+      "excluded": "Protocol name (who is), not an initialism"
+    },
+    {
+      "term": "WIDS",
+      "card": "WIDS",
+      "pages": [
+        213
+      ]
+    },
+    {
+      "term": "WPA",
+      "card": "WPA",
+      "pages": [
+        302,
+        303
+      ]
+    },
+    {
+      "term": "WPA2",
+      "card": "WPA2",
+      "pages": [
+        303
+      ]
+    },
+    {
+      "term": "WPA3",
+      "card": "WPA3",
+      "pages": [
+        276,
+        299,
+        303
+      ]
+    },
+    {
+      "term": "XCCDF",
+      "card": "XCCDF",
+      "pages": [
+        346,
+        347,
+        348
+      ]
+    },
+    {
+      "term": "XDR",
+      "card": "XDR",
+      "pages": [
+        314
+      ]
+    },
+    {
+      "term": "XML",
+      "card": "XML",
+      "pages": [
+        249,
+        250,
+        257,
+        258,
+        259,
+        346,
+        390
+      ]
+    },
+    {
+      "term": "XOR",
+      "card": "XOR",
+      "pages": [
+        85
+      ]
+    },
+    {
+      "term": "XSRF",
+      "card": "XSRF",
+      "pages": [
+        260,
+        262
+      ]
+    },
+    {
+      "term": "XSS",
+      "card": "XSS",
+      "pages": [
+        156,
+        250,
+        260,
+        261,
+        305,
+        306
+      ]
+    },
+    {
+      "term": "XXE",
+      "card": "XXE",
+      "pages": [
+        259
+      ]
+    },
+    {
+      "term": "XenServer",
+      "excluded": "Product, company, command, or attribute name; not a standalone acronym"
+    },
+    {
+      "term": "YAML",
+      "card": "YAML",
+      "pages": [
+        197
+      ]
+    }
+  ],
+  "additionalForms": [
+    "2FA",
+    "3DES",
+    "POA&M",
+    "PCI DSS",
+    "SHA256",
+    "U.S."
+  ]
+}
