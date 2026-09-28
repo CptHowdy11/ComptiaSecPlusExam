@@ -12,3 +12,5 @@
 .acronym-search{margin:24px 0}.acronym-search label{display:block;font-weight:700;margin-bottom:8px}.acronym-search>div{display:flex;gap:10px;flex-wrap:wrap}.acronym-search input{width:auto;min-width:0;flex:1 1 180px;height:auto;padding:12px;font:inherit;border:1px solid #c4d3ca;border-radius:7px}.acronym-term{font-size:clamp(36px,8vw,76px);line-height:1.2;overflow-wrap:anywhere;max-width:100%;color:#173f33}.acronym-answer{font-size:clamp(23px,4vw,34px);line-height:1.4;overflow-wrap:anywhere;max-width:100%}.acronym-note{font-size:15px;color:#576d5f}.acronym-card{min-height:340px}.citation a{color:#216e56}
 
 .acronym-hint{margin-top:16px}.hint-text{margin:12px 0 0;padding:16px 18px;border-left:3px solid #237c64;border-radius:0 8px 8px 0;background:#e5ede5;color:#20493d;font-size:16px;line-height:1.6}
+
+.port-controls [aria-pressed=true]{background:#216e56;color:#fff;border-color:#216e56}

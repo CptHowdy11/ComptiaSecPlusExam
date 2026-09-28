@@ -22,6 +22,17 @@ portAction('port-next');if(portIndex!==1||portFlipped)throw Error('Next must hid
 portAction('port-prev');if(portIndex!==0)throw Error('Previous failed');
 portAction('port-shuffle');if(new Set(portDeck.map(c=>c.port)).size!==36||portFlipped||portIndex!==0)throw Error('Shuffle lost cards');
 for(const number of [123,500,515]){portIndex=portDeck.findIndex(c=>c.port===number);portFlipped=true;render();if(!root.innerHTML.includes('Supplemental port')||!root.innerHTML.includes('Verify this port')||root.innerHTML.includes('PDF page null'))throw Error('Incorrect supplemental citation');}
+portAction('port-definition-first');
+if(!portDefinitionFirst||portFlipped)throw Error('Direction must reset answer');
+for(let i=0;i<portDeck.length;i++){
+portIndex=i;portFlipped=false;render();
+const card=root.innerHTML.split('<button class="port-card"')[1].split('</button>')[0];
+if(!card.includes(portDeck[i].protocol)||new RegExp('\\b'+portDeck[i].port+'\\b').test(card))throw Error('Definition missing or port leaked: '+portDeck[i].port);
+portAction('port-flip');if(!root.innerHTML.includes('<strong class="port-number">'+portDeck[i].port+'</strong>'))throw Error('Port answer missing');
+}
+portAction('port-prev');if(portFlipped||!portDefinitionFirst)throw Error('Reverse navigation failed');
+portAction('port-shuffle');if(portFlipped||!portDefinitionFirst)throw Error('Reverse shuffle failed');
+portAction('port-number-first');if(portDefinitionFirst||portFlipped)throw Error('Restore port first failed');
 state.attempt={submitted:null,currentIndex:7};const attempt=JSON.stringify(state.attempt);portAction('port-next');act('home');if(JSON.stringify(state.attempt)!==attempt||view!=='home')throw Error('Exam changed');
 const saved=JSON.stringify(state);act('acronyms');if(view!=='acronyms'||!root.innerHTML.includes('acronym-search'))throw Error('Acronym route failed');acronymAction('acronym-search','GPO');act('acronym-flip');if(!root.innerHTML.includes('Group Policy Object'))throw Error('Acronym flip route failed');act('home');if(JSON.stringify(state)!==saved)throw Error('Acronyms changed progress');
 })()`,ctx);
