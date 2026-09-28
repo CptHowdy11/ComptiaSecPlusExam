@@ -10,10 +10,10 @@ The deck preserves the guide's context while explaining known expansion errors: 
 
 ## Interaction
 
-Select **Study acronym flashcards** on the home screen. Cards begin with the acronym only. Click the card, use the reveal button, or focus the card and press Enter/Space. Previous/Next conceal the answer on the newly selected card. Search matches acronym text and aliases, not the answer. Shuffle operates on the current filtered deck. **All cards · A–Z** clears the filter and restores alphabetical order. No matches produces a recoverable empty state.
+Select **Study acronym flashcards** on the home screen. Cards begin with the acronym only. Click the card, use the reveal button, or focus the card and press Enter/Space. Each card has a **Show hint** button with a short conceptual clue. Hints avoid the substantive words in the expansion and never flip the card. **Hide hint** conceals the clue again. Hints reset on navigation, search, shuffle, reset, and flip. Previous/Next conceal the answer on the newly selected card. Search matches acronym text and aliases, not the answer. Shuffle operates on the current filtered deck. **All cards · A–Z** clears the filter and restores alphabetical order. No matches produces a recoverable empty state.
 
 Deck browsing is session-only and does not alter saved exams, answers, history, study progress, or backup format.
 
 ## Validation
 
-`npm test` validates source coverage, unique cards, guide page references, answer visibility, navigation boundaries, alias search, empty results, HTML escaping, shuffle coverage, and ambiguous expansions, plus the existing quiz and port-flashcard tests. A local browser check verified entry from the home page, card click-to-flip, filtering, navigation, and long answer layout.
+`npm test` validates source coverage, unique cards, guide page references, answer visibility, navigation boundaries, alias search, empty results, HTML escaping, shuffle coverage, ambiguous expansions, hint coverage, answer-word leakage, and hint visibility/reset behavior, plus the existing quiz and port-flashcard tests. A local browser check verified entry from the home page, card click-to-flip, filtering, navigation, and long answer layout.

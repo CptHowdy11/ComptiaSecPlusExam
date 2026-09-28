@@ -7,8 +7,8 @@ import vm from 'node:vm';
 import {portCards,portSources,transportNames} from '../app/ports.js';
 import * as engine from '../app/engine.js';
 import * as dashboard from '../app/dashboard.js';
-test('deck covers each port in the course table exactly once',()=>{
-assert.deepEqual(portCards.map(c=>c.port),[21,22,23,25,53,69,80,88,110,119,135,137,138,139,143,161,162,389,443,445,465,514,587,636,993,995,1433,1645,1646,1812,1813,3389,6514]);
+test('deck covers each course port and all supplemental ports exactly once',()=>{
+assert.deepEqual(portCards.map(c=>c.port),[21,22,23,25,53,69,80,88,110,119,123,135,137,138,139,143,161,162,389,443,445,465,500,514,515,587,636,993,995,1433,1645,1646,1812,1813,3389,6514]);
 for(const c of portCards)assert.ok(c.protocol&&c.fullName&&c.purpose&&transportNames[c.transport]);
 });
 test('flashcards flip, navigate, shuffle, and preserve exam state',async()=>{
@@ -16,12 +16,23 @@ const root={innerHTML:'',querySelector:()=>null,querySelectorAll:()=>[]};
 const ctx=vm.createContext({...engine,...dashboard,acronymCards,newAcronymDeck,updateAcronymDeck,renderAcronyms,portCards,portSources,transportNames,document:{querySelector:()=>root,body:{classList:{toggle(){}}}},window:{scrollTo(){}},setInterval(){},localStorage:{getItem(){return null;}},fetch:async url=>({ok:true,json:async()=>JSON.parse(fs.readFileSync(new URL('../app/'+url,import.meta.url),'utf8'))})});
 const source=fs.readFileSync(new URL('../app/app.js',import.meta.url),'utf8').replace(/^import .*;\r?\n/gm,'');
 await vm.runInContext('(async()=>{'+source+`;const before=JSON.stringify(state); view='ports';render();
-if(!root.innerHTML.includes('Card 1 of 33')||root.innerHTML.includes('Controls file transfers'))throw Error('Front reveals answer');
+if(!root.innerHTML.includes('Card 1 of 36')||root.innerHTML.includes('Controls file transfers'))throw Error('Front reveals answer');
 portAction('port-flip');if(!root.innerHTML.includes('File Transfer Protocol'))throw Error('Missing answer');
 portAction('port-next');if(portIndex!==1||portFlipped)throw Error('Next must hide answer');
 portAction('port-prev');if(portIndex!==0)throw Error('Previous failed');
-portAction('port-shuffle');if(new Set(portDeck.map(c=>c.port)).size!==33||portFlipped||portIndex!==0)throw Error('Shuffle lost cards');
+portAction('port-shuffle');if(new Set(portDeck.map(c=>c.port)).size!==36||portFlipped||portIndex!==0)throw Error('Shuffle lost cards');
+for(const number of [123,500,515]){portIndex=portDeck.findIndex(c=>c.port===number);portFlipped=true;render();if(!root.innerHTML.includes('Supplemental port')||!root.innerHTML.includes('Verify this port')||root.innerHTML.includes('PDF page null'))throw Error('Incorrect supplemental citation');}
 state.attempt={submitted:null,currentIndex:7};const attempt=JSON.stringify(state.attempt);portAction('port-next');act('home');if(JSON.stringify(state.attempt)!==attempt||view!=='home')throw Error('Exam changed');
 const saved=JSON.stringify(state);act('acronyms');if(view!=='acronyms'||!root.innerHTML.includes('acronym-search'))throw Error('Acronym route failed');acronymAction('acronym-search','GPO');act('acronym-flip');if(!root.innerHTML.includes('Group Policy Object'))throw Error('Acronym flip route failed');act('home');if(JSON.stringify(state)!==saved)throw Error('Acronyms changed progress');
 })()`,ctx);
+});
+
+test('supplemental ports have verified transports and no invented course page',()=>{
+const ntp=portCards.find(c=>c.port===123);
+assert.equal(ntp.transport,'UDP');assert.equal(ntp.fullName,'Network Time Protocol');assert.equal(ntp.page,null);assert.equal(ntp.sourceUrl,'https://www.rfc-editor.org/info/rfc5905/');
+const ike=portCards.find(c=>c.port===500),printer=portCards.find(c=>c.port===515);
+assert.equal(ike.transport,'UDP');assert.match(ike.fullName,/Internet Key Exchange/);
+assert.equal(printer.transport,'TCP');assert.match(printer.fullName,/Line Printer Daemon/);
+for(const c of [ike,printer]){assert.equal(c.page,null);assert.ok(c.sourceUrl.startsWith('https://learn.microsoft.com/'));}
+assert.equal(portCards.filter(c=>c.page).length,33);
 });

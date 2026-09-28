@@ -8,7 +8,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A login combines a pair of different evidence categories, such as a password and a token."
   },
   {
     "acronym": "3DES",
@@ -20,7 +21,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An older symmetric cipher applies its predecessor three times to each block."
   },
   {
     "acronym": "AAA",
@@ -33,7 +35,8 @@ export const acronymCards = [
       "AAA/RADIUS"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The trio asks who you are, what you may do, and what you did."
   },
   {
     "acronym": "ABAC",
@@ -43,7 +46,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Permissions depend on properties of the user, resource, and environment."
   },
   {
     "acronym": "ACL",
@@ -58,7 +62,8 @@ export const acronymCards = [
       "ACLs"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An ordered set of rules permits or denies traffic or resource requests."
   },
   {
     "acronym": "ADA",
@@ -68,7 +73,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A U.S. law addressing accessibility and equal treatment of people with impairments."
   },
   {
     "acronym": "ADC",
@@ -80,7 +86,8 @@ export const acronymCards = [
       "ADCs"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An appliance balances requests among servers and can offload tasks such as TLS processing."
   },
   {
     "acronym": "AES",
@@ -96,7 +103,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A widely used symmetric cipher with 128-, 192-, or 256-bit keys."
   },
   {
     "acronym": "AH",
@@ -106,7 +114,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An IPsec component verifies packet origin and tampering without concealing the contents."
   },
   {
     "acronym": "ALE",
@@ -116,7 +125,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The estimated monetary damage from a particular risk over one year."
   },
   {
     "acronym": "API",
@@ -133,7 +143,8 @@ export const acronymCards = [
       "APIs"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An agreed way for one piece of software to invoke another's capabilities."
   },
   {
     "acronym": "APT",
@@ -143,7 +154,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A well-resourced adversary pursues a target persistently over a long period."
   },
   {
     "acronym": "ARF",
@@ -154,7 +166,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A SCAP specification for exchanging inventory details and the results associated with them."
   },
   {
     "acronym": "ARO",
@@ -164,7 +177,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The estimated number of times a particular risk event happens per year."
   },
   {
     "acronym": "ARP",
@@ -175,7 +189,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Resolves an IPv4 destination to a device hardware identifier on a local segment."
   },
   {
     "acronym": "ASLR",
@@ -185,7 +200,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Moves program components to unpredictable locations to hinder exploitation."
   },
   {
     "acronym": "AUP",
@@ -195,7 +211,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An organization's rules for permitted behavior on its technology resources."
   },
   {
     "acronym": "AWS",
@@ -206,7 +223,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The cloud platform offering products such as EC2 and S3."
   },
   {
     "acronym": "BC",
@@ -217,7 +235,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Keeping essential organizational functions running through a disruption."
   },
   {
     "acronym": "BC/DR",
@@ -227,7 +246,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Keeping essential functions running and restoring disrupted capabilities afterward."
   },
   {
     "acronym": "BEC",
@@ -237,7 +257,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An attacker impersonates a trusted colleague to trick staff into fraudulent transfers."
   },
   {
     "acronym": "BIA",
@@ -247,7 +268,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An assessment of how disruptions affect critical functions and their priorities."
   },
   {
     "acronym": "BPA",
@@ -257,7 +279,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A contract defining how collaborating organizations work together and share obligations."
   },
   {
     "acronym": "BYOD",
@@ -272,7 +295,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Employees use personally owned phones or laptops for work."
   },
   {
     "acronym": "CA",
@@ -285,7 +309,8 @@ export const acronymCards = [
       "CAs"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A trusted issuer vouches for the binding between an identity and a public key."
   },
   {
     "acronym": "CAB",
@@ -296,7 +321,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A review group evaluates proposed modifications before they are approved."
   },
   {
     "acronym": "CAM",
@@ -306,7 +332,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A switch uses this lookup table to associate device addresses with ports."
   },
   {
     "acronym": "CAPTCHA",
@@ -318,7 +345,8 @@ export const acronymCards = [
       "CAPTCHAS"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A website challenge helps distinguish a real person from a bot."
   },
   {
     "acronym": "CASB",
@@ -330,7 +358,8 @@ export const acronymCards = [
       "CASBs"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A policy-enforcement intermediary helps oversee an organization's use of hosted apps."
   },
   {
     "acronym": "CASP+",
@@ -342,7 +371,8 @@ export const acronymCards = [
       "CASP"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The guide's concluding recommendation names this senior-level technical certification."
   },
   {
     "acronym": "CCE",
@@ -352,7 +382,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A catalog gives unique identifiers to settings-related issues across systems."
   },
   {
     "acronym": "CCMP",
@@ -362,7 +393,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "The guide uses a shortened variant on page 303. The full standard name is shown here.",
-    "sourceUrl": "https://csrc.nist.gov/pubs/sp/800/38/c/upd1/final"
+    "sourceUrl": "https://csrc.nist.gov/pubs/sp/800/38/c/upd1/final",
+    "hint": "The AES-based protection mechanism associated with WPA2."
   },
   {
     "acronym": "CCPA",
@@ -372,7 +404,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A U.S. state law giving residents rights over how businesses handle their details."
   },
   {
     "acronym": "CCTV",
@@ -382,7 +415,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Cameras feed footage to a restricted monitoring setup rather than a public broadcast."
   },
   {
     "acronym": "CD",
@@ -394,7 +428,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "The guide discusses deployment on page 387 and delivery on page 388; both use CD.",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A release pipeline keeps changes ready to ship, or automatically ships them to production."
   },
   {
     "acronym": "CE",
@@ -404,7 +439,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Disposing of a key makes the protected contents unreadable without overwriting every block."
   },
   {
     "acronym": "CentOS",
@@ -415,7 +451,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A Linux distribution mentioned alongside Red Hat in the hardening material."
   },
   {
     "acronym": "CEO",
@@ -427,7 +464,8 @@ export const acronymCards = [
       "CEOs"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The top-ranking leader responsible for the overall direction of a company."
   },
   {
     "acronym": "CER",
@@ -437,7 +475,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The biometric threshold where mistaken admissions and mistaken denials are equally frequent."
   },
   {
     "acronym": "CFO",
@@ -449,7 +488,8 @@ export const acronymCards = [
       "CFOs"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The senior leader responsible for an organization's finances."
   },
   {
     "acronym": "CHIPS",
@@ -459,7 +499,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": "https://www.nist.gov/chips/implementation-strategy"
+    "sourceUrl": "https://www.nist.gov/chips/implementation-strategy",
+    "hint": "The 2022 U.S. law supporting domestic chip manufacturing and related innovation."
   },
   {
     "acronym": "CI",
@@ -471,7 +512,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Developers frequently merge changes into a shared repository with automated checks."
   },
   {
     "acronym": "CI/CD",
@@ -483,7 +525,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "CD can mean delivery or deployment. Both appear in the guide.",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A pipeline takes frequent developer changes through checks and toward production release."
   },
   {
     "acronym": "CIA",
@@ -494,7 +537,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The classic trio protects secrecy, accuracy, and dependable usability."
   },
   {
     "acronym": "CIANA",
@@ -504,7 +548,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A five-part model adds identity verification and proof against denial to the classic trio."
   },
   {
     "acronym": "CIO",
@@ -514,7 +559,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The senior leader responsible for an organization's technology strategy."
   },
   {
     "acronym": "CIS",
@@ -524,7 +570,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The nonprofit behind widely used hardening benchmarks and prioritized safeguards."
   },
   {
     "acronym": "CompTIA",
@@ -938,7 +985,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The organization that awards the Security+ certification."
   },
   {
     "acronym": "COOP",
@@ -948,7 +996,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A plan for maintaining essential functions during and after a major disruption."
   },
   {
     "acronym": "COPE",
@@ -960,7 +1009,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An employer issues a phone or laptop but also permits private use."
   },
   {
     "acronym": "COW",
@@ -970,7 +1020,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A resource is duplicated only when someone modifies it; a Linux exploit abused this behavior."
   },
   {
     "acronym": "CPE",
@@ -980,7 +1031,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A naming scheme identifies hardware, operating systems, and applications consistently."
   },
   {
     "acronym": "CPU",
@@ -998,7 +1050,8 @@ export const acronymCards = [
       "CPUs"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The chip that executes a computer's instructions."
   },
   {
     "acronym": "CRL",
@@ -1009,7 +1062,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A published record of credentials an issuer invalidated before their expiration dates."
   },
   {
     "acronym": "CRYSTALS",
@@ -1022,7 +1076,8 @@ export const acronymCards = [
       "CRYSTALS-Kyber"
     ],
     "note": "Appears as CRYSTALS-Kyber and CRYSTALS-Dilithium. Kyber and Dilithium are algorithm names, not additional acronyms.",
-    "sourceUrl": "https://pq-crystals.org/"
+    "sourceUrl": "https://pq-crystals.org/",
+    "hint": "The post-quantum algorithm family that includes Kyber and Dilithium."
   },
   {
     "acronym": "CSR",
@@ -1032,7 +1087,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A requester sends identity details and a public key to an issuer to obtain a credential."
   },
   {
     "acronym": "CSRF",
@@ -1042,7 +1098,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A malicious page tricks a logged-in browser into performing an unwanted action elsewhere."
   },
   {
     "acronym": "CURL",
@@ -1053,7 +1110,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "The guide capitalizes CURL. The project spells it curl and gives several readings of its name; URL means Uniform Resource Locator.",
-    "sourceUrl": "https://curl.se/docs/faq.html"
+    "sourceUrl": "https://curl.se/docs/faq.html",
+    "hint": "A command-line tool sends or fetches content using addresses and many supported protocols."
   },
   {
     "acronym": "CVE",
@@ -1069,7 +1127,8 @@ export const acronymCards = [
       "CVE-Year"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A public identifier such as a year-and-number tag names a disclosed software flaw."
   },
   {
     "acronym": "CVSS",
@@ -1081,7 +1140,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A framework assigns a numeric severity score to a software flaw."
   },
   {
     "acronym": "CYOD",
@@ -1093,7 +1153,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Employees select a work phone or laptop from an employer-approved selection."
   },
   {
     "acronym": "CySA+",
@@ -1105,7 +1166,8 @@ export const acronymCards = [
       "CySA"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A CompTIA certification emphasizing threat detection, investigation, and response."
   },
   {
     "acronym": "DAC",
@@ -1118,7 +1180,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The resource owner decides who receives permissions."
   },
   {
     "acronym": "DAST",
@@ -1128,7 +1191,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "The guide labels this Dynamic Code Analysis; DAST expands to Dynamic Application Security Testing.",
-    "sourceUrl": "https://csrc.nist.gov/glossary/term/dynamic_application_security_testing"
+    "sourceUrl": "https://csrc.nist.gov/glossary/term/dynamic_application_security_testing",
+    "hint": "Checks a running program for exploitable behavior rather than just examining its source."
   },
   {
     "acronym": "DCS",
@@ -1138,7 +1202,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Coordinates production processes within a single industrial site."
   },
   {
     "acronym": "DDoS",
@@ -1156,7 +1221,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Many compromised machines overwhelm a target so legitimate users cannot reach it."
   },
   {
     "acronym": "DES",
@@ -1169,7 +1235,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An older symmetric cipher with a 56-bit effective key, superseded by AES."
   },
   {
     "acronym": "DevOps",
@@ -1179,7 +1246,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A collaborative approach links building applications with running them reliably."
   },
   {
     "acronym": "DJC2",
@@ -1189,7 +1257,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": "https://www.navy.mil/Press-Office/News-Stories/display-news/Article/2249948/rimpac-participants-transform-djc2-into-a-moc/"
+    "sourceUrl": "https://www.navy.mil/Press-Office/News-Stories/display-news/Article/2249948/rimpac-participants-transform-djc2-into-a-moc/",
+    "hint": "A military system establishes a portable headquarters quickly, including its computing infrastructure."
   },
   {
     "acronym": "DKIM",
@@ -1201,7 +1270,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An email domain adds a signature that recipients can verify to detect tampering."
   },
   {
     "acronym": "DLL",
@@ -1214,7 +1284,8 @@ export const acronymCards = [
       "DLLs"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A Windows module contains reusable routines that programs can load at runtime."
   },
   {
     "acronym": "DLP",
@@ -1227,7 +1298,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Tools detect or block sensitive content from leaving approved boundaries."
   },
   {
     "acronym": "DMARC",
@@ -1238,7 +1310,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An email policy uses SPF and DKIM alignment to guide handling of forged senders."
   },
   {
     "acronym": "DMZ",
@@ -1248,7 +1321,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A buffer subnet hosts public-facing systems apart from the internal LAN."
   },
   {
     "acronym": "DNS",
@@ -1273,7 +1347,8 @@ export const acronymCards = [
       "DNS-based"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Resolves names such as example.com into addresses and other records."
   },
   {
     "acronym": "DNSSEC",
@@ -1283,7 +1358,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Adds signatures so a resolver can verify the origin and integrity of lookup records."
   },
   {
     "acronym": "DOM",
@@ -1293,7 +1369,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The browser's tree representation of a page, which scripts can inspect or modify."
   },
   {
     "acronym": "DoS",
@@ -1306,7 +1383,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An attack makes a target unavailable to legitimate users."
   },
   {
     "acronym": "DR",
@@ -1317,7 +1395,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Restoring disrupted technology and services after a major incident."
   },
   {
     "acronym": "DRP",
@@ -1327,7 +1406,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The documented steps for restoring disrupted systems after a major incident."
   },
   {
     "acronym": "DSA",
@@ -1337,7 +1417,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An asymmetric method proves who signed content without encrypting the content itself."
   },
   {
     "acronym": "DSS",
@@ -1354,7 +1435,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The requirements merchants follow to protect customers' cardholder details."
   },
   {
     "acronym": "DTLS",
@@ -1364,7 +1446,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Protects UDP-based communications while accommodating packet loss and reordering."
   },
   {
     "acronym": "EAL",
@@ -1374,7 +1457,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A Common Criteria rating indicating how rigorously a product was assessed."
   },
   {
     "acronym": "EAP",
@@ -1388,7 +1472,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A framework that accommodates several ways to prove identity when joining a network."
   },
   {
     "acronym": "EAP-FAST",
@@ -1399,7 +1484,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": "https://www.rfc-editor.org/info/rfc4851/"
+    "sourceUrl": "https://www.rfc-editor.org/info/rfc4851/",
+    "hint": "A Cisco-originated network-login method that uses a protected credential rather than requiring a client certificate."
   },
   {
     "acronym": "EAP-LEAP",
@@ -1409,7 +1495,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An older Cisco wireless-login method associated with password-guessing weaknesses."
   },
   {
     "acronym": "EAP-MD5",
@@ -1419,7 +1506,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A simple challenge-response network-login method lacking mutual verification."
   },
   {
     "acronym": "EAP-TLS",
@@ -1429,7 +1517,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A network-login method using certificates on both the client and server."
   },
   {
     "acronym": "EAP-TTLS",
@@ -1440,7 +1529,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A network-login method requiring a server certificate while allowing a password-based client exchange inside."
   },
   {
     "acronym": "ECC",
@@ -1452,7 +1542,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An asymmetric approach achieves strong protection with relatively small keys using points on a mathematical graph."
   },
   {
     "acronym": "ECDH",
@@ -1462,7 +1553,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A key-agreement method uses points on a mathematical graph to derive a shared secret."
   },
   {
     "acronym": "ECDHE",
@@ -1472,7 +1564,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A temporary-key agreement method supports forward secrecy with relatively small keys."
   },
   {
     "acronym": "ECDSA",
@@ -1482,7 +1575,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A compact-key method signs content using points on a mathematical graph."
   },
   {
     "acronym": "EDR",
@@ -1495,7 +1589,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Tools watch individual machines, investigate suspicious behavior, and help contain attacks."
   },
   {
     "acronym": "EEA",
@@ -1505,7 +1600,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The single-market region encompassing EU members plus Iceland, Liechtenstein, and Norway."
   },
   {
     "acronym": "EF",
@@ -1516,7 +1612,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The fraction of an asset's value lost in one incident."
   },
   {
     "acronym": "ELK",
@@ -1526,7 +1623,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An open-source stack collects, searches, and visualizes logs."
   },
   {
     "acronym": "EMI",
@@ -1536,7 +1634,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Unwanted electrical noise disrupts signals or equipment."
   },
   {
     "acronym": "ESP",
@@ -1546,7 +1645,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The IPsec component that can encrypt packet contents as well as verify them."
   },
   {
     "acronym": "ESS",
@@ -1556,7 +1656,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Several wireless access points cooperate to provide coverage under one network identity."
   },
   {
     "acronym": "ESXi",
@@ -1566,7 +1667,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "Included because the guide uses this abbreviated product name. The card identifies the product rather than inventing a formal protocol expansion.",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A bare-metal platform runs multiple guest operating systems on one physical server."
   },
   {
     "acronym": "EU",
@@ -1577,7 +1679,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The political and economic bloc whose privacy framework includes GDPR."
   },
   {
     "acronym": "FaaS",
@@ -1587,7 +1690,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A cloud model runs small event-triggered units of code without managing the servers yourself."
   },
   {
     "acronym": "FALCON",
@@ -1599,7 +1703,8 @@ export const acronymCards = [
       "FLACON"
     ],
     "note": "Printed as FLACON on guide page 103. FALCON is the correct algorithm name.",
-    "sourceUrl": "https://research.ibm.com/publications/falcon-fast-fourier-lattice-based-compact-signatures-over-ntru"
+    "sourceUrl": "https://research.ibm.com/publications/falcon-fast-fourier-lattice-based-compact-signatures-over-ntru",
+    "hint": "A post-quantum signing algorithm; its name is misspelled FLACON in the guide."
   },
   {
     "acronym": "FAR",
@@ -1609,7 +1714,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The biometric measure of how often an unauthorized person is mistakenly admitted."
   },
   {
     "acronym": "FB",
@@ -1619,7 +1725,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The social platform where the guide invites learners to join a discussion group."
   },
   {
     "acronym": "FDE",
@@ -1629,7 +1736,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Protects everything on a storage drive rather than selected folders alone."
   },
   {
     "acronym": "FIM",
@@ -1639,7 +1747,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Detects unexpected changes to important system content by comparing it against a known baseline."
   },
   {
     "acronym": "FPC",
@@ -1649,7 +1758,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Records every byte of observed traffic, including headers and payloads."
   },
   {
     "acronym": "FRR",
@@ -1659,7 +1769,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The biometric measure of how often a legitimate person is mistakenly turned away."
   },
   {
     "acronym": "FTK",
@@ -1669,7 +1780,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A commercial suite used to examine digital evidence."
   },
   {
     "acronym": "FTP",
@@ -1680,7 +1792,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An older way to move files between computers, with a control channel on port 21."
   },
   {
     "acronym": "GCMP",
@@ -1690,7 +1803,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": "https://csrc.nist.gov/glossary/term/galois_counter_mode_protocol"
+    "sourceUrl": "https://csrc.nist.gov/glossary/term/galois_counter_mode_protocol",
+    "hint": "An authenticated-encryption mechanism discussed with WPA3."
   },
   {
     "acronym": "GDPR",
@@ -1705,7 +1819,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The EU privacy framework governing how organizations handle people's details."
   },
   {
     "acronym": "GHz",
@@ -1715,7 +1830,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A frequency unit equal to one billion cycles per second."
   },
   {
     "acronym": "GLBA",
@@ -1725,7 +1841,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A U.S. law requiring financial institutions to protect customer details."
   },
   {
     "acronym": "GNU",
@@ -1735,7 +1852,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The free-software project whose name is a recursive acronym."
   },
   {
     "acronym": "GPO",
@@ -1746,7 +1864,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "Page 291 says Group Policy Objective; the correct Microsoft term is Group Policy Object.",
-    "sourceUrl": "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/policy/group-policy-objects"
+    "sourceUrl": "https://learn.microsoft.com/en-us/previous-versions/windows/desktop/policy/group-policy-objects",
+    "hint": "A bundle of Windows settings applied centrally to users and computers."
   },
   {
     "acronym": "GPS",
@@ -1756,7 +1875,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Satellite signals allow a receiver to determine its location."
   },
   {
     "acronym": "GRC",
@@ -1766,7 +1886,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The organizational discipline linking leadership, uncertainty, and obligations."
   },
   {
     "acronym": "HCL",
@@ -1776,7 +1897,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The declarative syntax used by tools such as Terraform to describe desired resources."
   },
   {
     "acronym": "HIDS",
@@ -1787,7 +1909,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A sensor watches one machine for suspicious activity and generates alerts."
   },
   {
     "acronym": "HIPAA",
@@ -1803,7 +1926,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A U.S. law associated with safeguarding medical records."
   },
   {
     "acronym": "HKLM",
@@ -1815,7 +1939,8 @@ export const acronymCards = [
       "HKLM/Hardware"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The Windows settings branch whose entries apply to the whole computer rather than one user."
   },
   {
     "acronym": "HMAC",
@@ -1826,7 +1951,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A shared secret and a digest function jointly detect tampering and prove sender knowledge."
   },
   {
     "acronym": "HMAC-MD5",
@@ -1836,7 +1962,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A keyed integrity check built from an older function with a 128-bit result."
   },
   {
     "acronym": "HMAC-SHA1",
@@ -1846,7 +1973,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A keyed integrity check built from a 160-bit digest function."
   },
   {
     "acronym": "HMAC-SHA256",
@@ -1856,7 +1984,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A keyed integrity check built from a 256-bit digest function."
   },
   {
     "acronym": "HR",
@@ -1867,7 +1996,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The department responsible for employees, hiring, and workplace matters."
   },
   {
     "acronym": "HSM",
@@ -1878,7 +2008,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A tamper-resistant appliance safeguards keys and performs cryptographic operations."
   },
   {
     "acronym": "HTML",
@@ -1891,7 +2022,8 @@ export const acronymCards = [
       "HTML-based"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The tags that give a web page its content structure."
   },
   {
     "acronym": "HTTP",
@@ -1909,7 +2041,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The usual unencrypted request-and-response mechanism for browsing websites."
   },
   {
     "acronym": "HTTPS",
@@ -1928,7 +2061,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The encrypted form of browser-to-website communication, normally on port 443."
   },
   {
     "acronym": "IAAA",
@@ -1938,7 +2072,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A four-step sequence covers claiming an identity, proving it, receiving permissions, and logging activity."
   },
   {
     "acronym": "IaaS",
@@ -1948,7 +2083,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Rent virtual machines, storage, and networking while managing your own operating systems."
   },
   {
     "acronym": "IaC",
@@ -1960,7 +2096,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Define and provision environments from versioned, repeatable configuration files."
   },
   {
     "acronym": "IAM",
@@ -1973,7 +2110,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Policies and tools govern users, credentials, roles, and permissions."
   },
   {
     "acronym": "IANA",
@@ -1983,7 +2121,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The body coordinating registries for items such as ports and protocol parameters."
   },
   {
     "acronym": "IBM",
@@ -1994,7 +2133,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The technology company associated with QRadar in the guide."
   },
   {
     "acronym": "ICMP",
@@ -2004,7 +2144,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Carries diagnostic and error notifications; ping relies on its echo exchange."
   },
   {
     "acronym": "ICS",
@@ -2016,7 +2157,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Technology used to operate and monitor physical production processes."
   },
   {
     "acronym": "ID",
@@ -2030,7 +2172,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A label or value used to distinguish a person, account, or other entity."
   },
   {
     "acronym": "IDEA",
@@ -2041,7 +2184,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A symmetric block cipher with a 128-bit key, listed among the guide's alternatives."
   },
   {
     "acronym": "IdP",
@@ -2052,7 +2196,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The trusted login authority that verifies users for other applications."
   },
   {
     "acronym": "IDS",
@@ -2065,7 +2210,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A monitoring tool flags suspicious activity, typically without blocking it itself."
   },
   {
     "acronym": "IEEE",
@@ -2076,7 +2222,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The professional body behind standards such as 802.11 and 802.1X."
   },
   {
     "acronym": "IKE",
@@ -2086,7 +2233,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Negotiates the keys and parameters needed to establish an IPsec connection."
   },
   {
     "acronym": "IMAP",
@@ -2097,7 +2245,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Lets email clients synchronize folders while keeping mail on the server."
   },
   {
     "acronym": "IMAPS",
@@ -2108,7 +2257,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The encrypted mailbox-synchronization connection normally using port 993."
   },
   {
     "acronym": "IoC",
@@ -2120,7 +2270,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An observable clue suggesting a system may have been breached."
   },
   {
     "acronym": "IoT",
@@ -2132,7 +2283,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Connected everyday devices with sensors, embedded computing, or actuators."
   },
   {
     "acronym": "IP",
@@ -2164,7 +2316,8 @@ export const acronymCards = [
       "IPs"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The addressing and routing foundation that gets packets across interconnected networks."
   },
   {
     "acronym": "IPFIX",
@@ -2175,7 +2328,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A standardized way for devices to send summaries of observed traffic conversations to a collector."
   },
   {
     "acronym": "IPS",
@@ -2190,7 +2344,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An inline defense that can block traffic it judges malicious."
   },
   {
     "acronym": "IPSec",
@@ -2205,7 +2360,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A suite protects packets through encryption, origin checks, and anti-replay measures."
   },
   {
     "acronym": "ISAKMP",
@@ -2215,7 +2371,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A framework for negotiating the parameters used to establish protected communications."
   },
   {
     "acronym": "ISO",
@@ -2226,7 +2383,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "ISO is the official short name, used across languages, rather than the initials of the English name.",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The global standards body associated with frameworks such as the 27000 family."
   },
   {
     "acronym": "IT",
@@ -2256,7 +2414,8 @@ export const acronymCards = [
       "IT-related"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The organizational field concerned with computers, software, and related infrastructure."
   },
   {
     "acronym": "JIT",
@@ -2267,7 +2426,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Elevated permissions are granted only when needed and expire afterward."
   },
   {
     "acronym": "JSON",
@@ -2280,7 +2440,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A lightweight text format represents values with objects, arrays, and name-value pairs."
   },
   {
     "acronym": "JV",
@@ -2290,7 +2451,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A business arrangement in which separate organizations collaborate on an undertaking."
   },
   {
     "acronym": "JWT",
@@ -2300,7 +2462,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A compact, signed claims container often passed between applications after login."
   },
   {
     "acronym": "KRI",
@@ -2312,7 +2475,8 @@ export const acronymCards = [
       "KRIs"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An early-warning metric suggesting that exposure to a potential problem is rising."
   },
   {
     "acronym": "LDAP",
@@ -2325,7 +2489,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Queries and updates centralized entries such as user accounts and groups."
   },
   {
     "acronym": "LDAPS",
@@ -2336,7 +2501,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The encrypted connection for querying centralized user and group entries, normally on port 636."
   },
   {
     "acronym": "MAC",
@@ -2356,7 +2522,8 @@ export const acronymCards = [
       "MACs"
     ],
     "note": "Networking: Media Access Control (page 205). Permissions: Mandatory Access Control (page 243). Cryptography: Message Authentication Code, as used within HMAC (page 90).",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Depending on context: a hardware address, label-enforced permissions, or a keyed integrity tag."
   },
   {
     "acronym": "MCIT",
@@ -2366,7 +2533,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The county-focused organization whose self-assessment checklist is cited in the guide."
   },
   {
     "acronym": "MD5",
@@ -2383,7 +2551,8 @@ export const acronymCards = [
       "MD5/SHA256"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A legacy fingerprinting function producing 128 bits, unsuitable for collision-resistant uses."
   },
   {
     "acronym": "MDM",
@@ -2397,7 +2566,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Centrally configures, tracks, and can remotely wipe an organization's phones and tablets."
   },
   {
     "acronym": "MFA",
@@ -2412,7 +2582,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A login requires evidence from more than one category, such as knowledge and possession."
   },
   {
     "acronym": "MIB",
@@ -2422,7 +2593,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A hierarchical catalog describes the variables exposed by an SNMP-enabled device."
   },
   {
     "acronym": "MIC",
@@ -2432,7 +2604,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A tag helps a recipient detect packet tampering in wireless communications."
   },
   {
     "acronym": "MIME",
@@ -2442,7 +2615,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Describes content types and enables email to carry attachments beyond plain text."
   },
   {
     "acronym": "MOA",
@@ -2452,7 +2626,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A formal document outlining the specific responsibilities of collaborating parties."
   },
   {
     "acronym": "MOU",
@@ -2465,7 +2640,8 @@ export const acronymCards = [
       "MOUs"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A document expressing shared intent, often less detailed than a binding contract."
   },
   {
     "acronym": "MPLS",
@@ -2475,7 +2651,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A forwarding technique steers traffic along paths using short labels rather than repeated address lookups."
   },
   {
     "acronym": "MRTG",
@@ -2485,7 +2662,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An older monitoring tool graphs utilization on networking equipment."
   },
   {
     "acronym": "MSA",
@@ -2495,7 +2673,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An umbrella contract establishes terms for an ongoing client relationship."
   },
   {
     "acronym": "MSP",
@@ -2508,7 +2687,8 @@ export const acronymCards = [
       "MSPs"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An outside organization runs technology tasks for clients on an ongoing basis."
   },
   {
     "acronym": "MSS",
@@ -2518,7 +2698,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The largest TCP payload a peer is willing to accept in one unit, excluding headers."
   },
   {
     "acronym": "MTBF",
@@ -2528,7 +2709,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A reliability metric measuring the typical interval separating breakdowns."
   },
   {
     "acronym": "MTTR",
@@ -2538,7 +2720,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A maintainability metric measuring how long fixing a breakdown typically takes."
   },
   {
     "acronym": "MTU",
@@ -2549,7 +2732,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The largest packet size a link can carry without fragmentation."
   },
   {
     "acronym": "NAC",
@@ -2562,7 +2746,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Checks a connecting device's identity or posture before allowing it onto the LAN."
   },
   {
     "acronym": "NDA",
@@ -2575,7 +2760,8 @@ export const acronymCards = [
       "NDAs"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A contract requiring recipients to keep specified material confidential."
   },
   {
     "acronym": "NetBIOS",
@@ -2585,7 +2771,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Legacy LAN capabilities include naming, datagrams, and sessions on ports 137–139."
   },
   {
     "acronym": "NFC",
@@ -2600,7 +2787,8 @@ export const acronymCards = [
       "NFC-enabled"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Very short-range wireless interaction used for tap-to-pay and badges."
   },
   {
     "acronym": "NGFW",
@@ -2611,7 +2799,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An application-aware traffic filter combining deeper inspection with other defenses."
   },
   {
     "acronym": "NIDS",
@@ -2623,7 +2812,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A sensor observes traffic across a segment and alerts on suspicious patterns."
   },
   {
     "acronym": "NIPS",
@@ -2634,7 +2824,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An inline device blocks malicious traffic moving through a segment."
   },
   {
     "acronym": "NIST",
@@ -2650,7 +2841,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The U.S. agency behind cybersecurity frameworks and many cryptographic specifications."
   },
   {
     "acronym": "NNTP",
@@ -2660,7 +2852,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Exchanges Usenet posts and supports reading discussion groups, typically on port 119."
   },
   {
     "acronym": "NOP",
@@ -2670,7 +2863,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An instruction that does nothing useful; attackers may chain these into a landing area."
   },
   {
     "acronym": "NSA",
@@ -2680,7 +2874,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The U.S. intelligence organization that originally developed SELinux."
   },
   {
     "acronym": "OAuth",
@@ -2691,7 +2886,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Lets an app receive delegated permissions without learning the user's password."
   },
   {
     "acronym": "OCSP",
@@ -2701,7 +2897,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Checks whether an issuer has revoked a particular digital credential."
   },
   {
     "acronym": "OID",
@@ -2713,7 +2910,8 @@ export const acronymCards = [
       "OIDs"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A unique hierarchical label names a managed variable in SNMP."
   },
   {
     "acronym": "OpenID",
@@ -2723,7 +2921,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "OpenID is the name of an authentication standard; ID refers to identity/identifier, not a separately defined expansion of the whole brand.",
-    "sourceUrl": "https://openid.net/developers/how-connect-works/"
+    "sourceUrl": "https://openid.net/developers/how-connect-works/",
+    "hint": "A federation mechanism lets a relying application use a trusted login authority."
   },
   {
     "acronym": "OpenVAS",
@@ -2734,7 +2933,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A scanner compares systems against checks for known weaknesses."
   },
   {
     "acronym": "OPSEC",
@@ -2744,7 +2944,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Examines what an adversary could learn from seemingly minor clues about an organization."
   },
   {
     "acronym": "OS",
@@ -2766,7 +2967,8 @@ export const acronymCards = [
       "OS-Specific"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The core software managing a computer's resources and applications."
   },
   {
     "acronym": "OSI",
@@ -2776,7 +2978,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The seven-layer reference model used to explain networking functions."
   },
   {
     "acronym": "OSINT",
@@ -2786,7 +2989,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Useful findings gathered from publicly available material."
   },
   {
     "acronym": "OTA",
@@ -2796,7 +3000,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Updates arrive wirelessly instead of through a physical cable."
   },
   {
     "acronym": "OTP",
@@ -2806,7 +3011,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A login code intended to work once rather than remain a reusable secret."
   },
   {
     "acronym": "OVAL",
@@ -2817,7 +3023,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An XML-based way to express machine-readable checks of system conditions."
   },
   {
     "acronym": "PaaS",
@@ -2827,7 +3034,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A cloud model supplies a managed runtime where customers deploy their own applications."
   },
   {
     "acronym": "PAM",
@@ -2838,7 +3046,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Safeguards powerful accounts through vaults, temporary permissions, and oversight."
   },
   {
     "acronym": "PC",
@@ -2851,7 +3060,8 @@ export const acronymCards = [
       "PC2"
     ],
     "note": "Appears as PC1 and PC2 in the network example; the digits identify individual computers.",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A general-purpose desktop or laptop, numbered in the guide's network example."
   },
   {
     "acronym": "PCI",
@@ -2867,7 +3077,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The ecosystem associated with merchants, issuers, and handling customers' cardholder details."
   },
   {
     "acronym": "PCI DSS",
@@ -2883,7 +3094,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The requirements for organizations handling customers' cardholder details."
   },
   {
     "acronym": "PDC",
@@ -2896,7 +3108,8 @@ export const acronymCards = [
       "PDCs"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A facility hub routes incoming electricity to equipment and includes protective circuitry."
   },
   {
     "acronym": "PDOS",
@@ -2906,7 +3119,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An attack renders hardware unusable, potentially requiring replacement."
   },
   {
     "acronym": "PEAP",
@@ -2917,7 +3131,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A network-login method wraps credential exchanges inside an encrypted tunnel."
   },
   {
     "acronym": "PHI",
@@ -2928,7 +3143,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Medical records linked to an individual and subject to privacy obligations."
   },
   {
     "acronym": "PII",
@@ -2939,7 +3155,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "Page 74 uses Personally Identifiable Information. Page 77 uses Personal Identification Information; the standard expansion is shown here.",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Details that can single out a person, such as a name linked to a unique identifier."
   },
   {
     "acronym": "PIN",
@@ -2954,7 +3171,8 @@ export const acronymCards = [
       "PINs"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A numeric secret commonly entered at an ATM or to unlock a phone."
   },
   {
     "acronym": "PKI",
@@ -2967,7 +3185,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The ecosystem of issuers, credentials, and keys that supports digital trust."
   },
   {
     "acronym": "PLC",
@@ -2979,7 +3198,8 @@ export const acronymCards = [
       "PLCs"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A rugged industrial device operates equipment such as an assembly line."
   },
   {
     "acronym": "POA&M",
@@ -2991,7 +3211,8 @@ export const acronymCards = [
       "POA"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A remediation tracker assigns tasks, resources, and deadlines to known weaknesses."
   },
   {
     "acronym": "POODLE",
@@ -3001,7 +3222,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An attack against obsolete SSL 3.0 exploits how certain ciphertext errors are handled."
   },
   {
     "acronym": "POP3",
@@ -3012,7 +3234,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Retrieves email from a server, typically using port 110."
   },
   {
     "acronym": "POP3S",
@@ -3023,7 +3246,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The encrypted email-retrieval connection normally using port 995."
   },
   {
     "acronym": "PRTG",
@@ -3033,7 +3257,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": "https://blog.paessler.com/how-it-all-started-11-years-prtg-network-monitor"
+    "sourceUrl": "https://blog.paessler.com/how-it-all-started-11-years-prtg-network-monitor",
+    "hint": "A commercial monitoring suite that tracks devices, bandwidth, and uptime using sensors."
   },
   {
     "acronym": "PTZ",
@@ -3043,7 +3268,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A camera can rotate horizontally, angle vertically, and magnify the scene."
   },
   {
     "acronym": "RA",
@@ -3053,7 +3279,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Verifies an applicant's identity before forwarding a credential application to the issuer."
   },
   {
     "acronym": "RACE",
@@ -3063,7 +3290,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The historical European program associated with the origins of RIPEMD."
   },
   {
     "acronym": "RADIUS",
@@ -3077,7 +3305,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "The port table abbreviates the expansion as Remote Authentication; this is the complete name.",
-    "sourceUrl": "https://www.rfc-editor.org/info/rfc2865/"
+    "sourceUrl": "https://www.rfc-editor.org/info/rfc2865/",
+    "hint": "Centralizes network-login decisions and usage tracking, commonly via UDP 1812 and 1813."
   },
   {
     "acronym": "RAID",
@@ -3092,7 +3321,8 @@ export const acronymCards = [
       "RAIDs"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Combines multiple drives for resilience, speed, or both, depending on the level."
   },
   {
     "acronym": "RAM",
@@ -3102,7 +3332,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Volatile working storage that normally loses its contents when power is removed."
   },
   {
     "acronym": "RAT",
@@ -3113,7 +3344,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Malware gives an attacker interactive control of a victim's machine."
   },
   {
     "acronym": "RBAC",
@@ -3126,7 +3358,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Permissions follow job functions rather than being assigned separately to every person."
   },
   {
     "acronym": "RC",
@@ -3136,7 +3369,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A numbered family of symmetric algorithms created by one of RSA's inventors."
   },
   {
     "acronym": "RC4",
@@ -3146,7 +3380,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A legacy byte-stream algorithm once used in WEP and SSL."
   },
   {
     "acronym": "RC5",
@@ -3156,7 +3391,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A symmetric block algorithm with configurable parameters from the same family as RC4."
   },
   {
     "acronym": "RC6",
@@ -3166,7 +3402,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A symmetric block algorithm from the RC family that was an AES finalist."
   },
   {
     "acronym": "RCA",
@@ -3177,7 +3414,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Investigates why an incident happened so the underlying problem can be fixed."
   },
   {
     "acronym": "RDP",
@@ -3187,7 +3425,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Provides an interactive graphical session on another computer, commonly on port 3389."
   },
   {
     "acronym": "REST",
@@ -3200,7 +3439,8 @@ export const acronymCards = [
       "RESTful"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An API design style that treats resources as addressable entities and favors stateless requests."
   },
   {
     "acronym": "RFID",
@@ -3214,7 +3454,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A tag communicates wirelessly with a reader, often for badges or inventory."
   },
   {
     "acronym": "RIPEMD",
@@ -3225,7 +3466,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A one-way fingerprinting family best known for its 160-bit variant, mentioned alongside SHA."
   },
   {
     "acronym": "RPC",
@@ -3235,7 +3477,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A program invokes a function that executes on another machine."
   },
   {
     "acronym": "RPO",
@@ -3246,7 +3489,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The maximum tolerable amount of lost work, expressed as how far back restored records may be."
   },
   {
     "acronym": "RSA",
@@ -3263,7 +3507,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An asymmetric algorithm named after three inventors; its classic construction uses large prime factors."
   },
   {
     "acronym": "RTO",
@@ -3273,7 +3518,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The target deadline for getting a disrupted function running again."
   },
   {
     "acronym": "RTOS",
@@ -3283,7 +3529,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A specialized platform schedules tasks to meet strict timing deadlines."
   },
   {
     "acronym": "RTR",
@@ -3296,7 +3543,8 @@ export const acronymCards = [
       "RTR2"
     ],
     "note": "Appears as RTR1 and RTR2 in the network example; this is an abbreviation for router.",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The device that forwards packets between networks, numbered in the guide's example."
   },
   {
     "acronym": "SaaS",
@@ -3307,7 +3555,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Use a provider-hosted application while the provider maintains the underlying platform."
   },
   {
     "acronym": "SAE",
@@ -3317,7 +3566,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The WPA3 password-based handshake designed to resist offline guessing."
   },
   {
     "acronym": "SAML",
@@ -3329,7 +3579,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An XML-based federation format carries assertions from a login authority to an application."
   },
   {
     "acronym": "SAN",
@@ -3339,7 +3590,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "The guide uses Subject Alternate Name; the standard term is Subject Alternative Name. This card uses the certificate context in the guide.",
-    "sourceUrl": "https://pages.nist.gov/FIPS201/glossary/"
+    "sourceUrl": "https://pages.nist.gov/FIPS201/glossary/",
+    "hint": "A certificate field lists additional hostnames covered by that credential."
   },
   {
     "acronym": "SANS",
@@ -3349,7 +3601,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": "https://www.sans.org/about"
+    "sourceUrl": "https://www.sans.org/about",
+    "hint": "The training organization associated with the Internet Storm Center threat feed."
   },
   {
     "acronym": "SASE",
@@ -3362,7 +3615,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A cloud-delivered architecture combines WAN connectivity with distributed protective capabilities."
   },
   {
     "acronym": "SAST",
@@ -3372,7 +3626,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "The guide labels this Static Code Analysis; SAST expands to Static Application Security Testing.",
-    "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-204C.pdf"
+    "sourceUrl": "https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-204C.pdf",
+    "hint": "Examines program source or compiled artifacts for flaws without exercising the running program."
   },
   {
     "acronym": "SCADA",
@@ -3384,7 +3639,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Supervises geographically spread industrial processes using telemetry and commands."
   },
   {
     "acronym": "SCAP",
@@ -3398,7 +3654,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "The guide sometimes inserts “and” in the name. The standard expansion has no “and”.",
-    "sourceUrl": "https://csrc.nist.gov/glossary/term/SCAP"
+    "sourceUrl": "https://csrc.nist.gov/glossary/term/SCAP",
+    "hint": "A collection of specifications enables machine-readable vulnerability and configuration checks."
   },
   {
     "acronym": "SCP",
@@ -3408,7 +3665,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Copies files between hosts through an SSH connection."
   },
   {
     "acronym": "SD-WAN",
@@ -3421,7 +3679,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Uses centralized policies to steer traffic across links between sites."
   },
   {
     "acronym": "SDLC",
@@ -3432,7 +3691,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The stages used to plan, build, test, release, and maintain an application."
   },
   {
     "acronym": "SDN",
@@ -3445,7 +3705,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Separates forwarding behavior from centralized, programmable control decisions."
   },
   {
     "acronym": "SELinux",
@@ -3460,7 +3721,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A kernel extension enforces mandatory permissions using labels and policy."
   },
   {
     "acronym": "SFlow",
@@ -3470,7 +3732,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "The guide writes SFlow; the technology is normally styled sFlow.",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Exports a selection of observed packets and interface counters for traffic analysis."
   },
   {
     "acronym": "SFTP",
@@ -3481,7 +3744,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Moves files through an encrypted connection on port 22, alongside remote terminal sessions."
   },
   {
     "acronym": "SHA",
@@ -3493,7 +3757,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A family of one-way digest functions used in integrity checks."
   },
   {
     "acronym": "SHA-1",
@@ -3503,7 +3768,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A legacy 160-bit digest function with broken collision resistance."
   },
   {
     "acronym": "SHA-2",
@@ -3513,7 +3779,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The digest family containing the 224-, 256-, 384-, and 512-bit variants."
   },
   {
     "acronym": "SHA-224",
@@ -3523,7 +3790,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A member of the second-generation digest family with a 28-byte result."
   },
   {
     "acronym": "SHA-256",
@@ -3534,7 +3802,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A member of the second-generation digest family with a 32-byte result."
   },
   {
     "acronym": "SHA-3",
@@ -3544,7 +3813,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The Keccak-based digest family using a sponge construction."
   },
   {
     "acronym": "SHA-384",
@@ -3554,7 +3824,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A member of the second-generation digest family with a 48-byte result."
   },
   {
     "acronym": "SHA-512",
@@ -3564,7 +3835,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A member of the second-generation digest family with a 64-byte result."
   },
   {
     "acronym": "SIEM",
@@ -3585,7 +3857,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Aggregates logs from many sources and correlates them to flag suspicious activity."
   },
   {
     "acronym": "SLA",
@@ -3598,7 +3871,8 @@ export const acronymCards = [
       "SLAs"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A contract specifies expected performance, uptime, and remedies for missed targets."
   },
   {
     "acronym": "SLE",
@@ -3608,7 +3882,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The estimated monetary damage from one occurrence of a risk event."
   },
   {
     "acronym": "SMB",
@@ -3618,7 +3893,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Enables shared files and printers, commonly over port 445."
   },
   {
     "acronym": "SMS",
@@ -3630,7 +3906,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "Page 28 says simple message service; the correct expansion is Short Message Service.",
-    "sourceUrl": "https://csrc.nist.gov/glossary/term/sms"
+    "sourceUrl": "https://csrc.nist.gov/glossary/term/sms",
+    "hint": "The traditional cellular texting mechanism, also used to deliver login codes."
   },
   {
     "acronym": "SMTP",
@@ -3642,7 +3919,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Relays email between servers, commonly on port 25."
   },
   {
     "acronym": "SMTPS",
@@ -3653,7 +3931,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The encrypted form of sending email; port 465 establishes protection immediately."
   },
   {
     "acronym": "SNMP",
@@ -3668,7 +3947,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Polls and configures devices such as routers; commonly uses UDP 161."
   },
   {
     "acronym": "SNMPS",
@@ -3678,7 +3958,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "The guide uses this shorthand for secure SNMP. Treat it as secure Simple Network Management Protocol, not a separate protocol version.",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The guide's shorthand for protecting device-monitoring exchanges with encryption or other safeguards."
   },
   {
     "acronym": "SNMPTrap",
@@ -3688,7 +3969,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An unsolicited device alert sent to a monitoring station, commonly on UDP 162."
   },
   {
     "acronym": "SOAP",
@@ -3698,7 +3980,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An API messaging approach with a formal XML envelope."
   },
   {
     "acronym": "SOAR",
@@ -3708,7 +3991,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Coordinates tools and runs playbooks to handle incidents with less manual effort."
   },
   {
     "acronym": "SOP",
@@ -3721,7 +4005,8 @@ export const acronymCards = [
       "SOPs"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Documented step-by-step instructions for doing a recurring task consistently."
   },
   {
     "acronym": "SOW",
@@ -3731,7 +4016,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A contract attachment specifies deliverables, milestones, and project obligations."
   },
   {
     "acronym": "SOX",
@@ -3741,7 +4027,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A U.S. law associated with corporate financial reporting and internal controls."
   },
   {
     "acronym": "SP",
@@ -3752,7 +4039,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The application a user wants to enter after a separate login authority verifies them."
   },
   {
     "acronym": "SPF",
@@ -3764,7 +4052,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A DNS record identifies which servers may send email for a domain."
   },
   {
     "acronym": "SPHINCS+",
@@ -3776,7 +4065,8 @@ export const acronymCards = [
       "SPHINCS"
     ],
     "note": "The project describes SPHINCS+ as a stateless hash-based signature scheme. No invented letter-by-letter expansion is used.",
-    "sourceUrl": "https://sphincs.org/software.html"
+    "sourceUrl": "https://sphincs.org/software.html",
+    "hint": "A post-quantum alternative to the lattice-oriented signing candidates on guide page 103."
   },
   {
     "acronym": "SPI",
@@ -3786,7 +4076,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Especially private details whose disclosure could cause significant harm to an individual."
   },
   {
     "acronym": "SPOG",
@@ -3798,7 +4089,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A consolidated dashboard brings multiple monitoring tools into one view."
   },
   {
     "acronym": "SQL",
@@ -3815,7 +4107,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The commands used to retrieve and manipulate records in relational databases."
   },
   {
     "acronym": "SSH",
@@ -3828,7 +4121,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An encrypted command-line connection to another machine, commonly on port 22."
   },
   {
     "acronym": "SSL",
@@ -3845,7 +4139,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An obsolete predecessor to TLS, still mentioned in older names and attacks."
   },
   {
     "acronym": "SSL/TLS",
@@ -3856,7 +4151,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The older and newer families of cryptographic protection used by encrypted websites."
   },
   {
     "acronym": "SSO",
@@ -3868,7 +4164,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "One login lets a user move among several trusted applications."
   },
   {
     "acronym": "StartTLS",
@@ -3878,7 +4175,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Upgrades an initially unencrypted connection to an encrypted one using an explicit command."
   },
   {
     "acronym": "SYN",
@@ -3889,7 +4187,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The TCP flag used to begin a connection handshake."
   },
   {
     "acronym": "TACACS+",
@@ -3902,7 +4201,8 @@ export const acronymCards = [
       "TACACS"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A device-administration AAA method using TCP 49 and separating its three AAA functions."
   },
   {
     "acronym": "TCP",
@@ -3918,7 +4218,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A connection-oriented mechanism provides ordered delivery, retransmission, and flow regulation."
   },
   {
     "acronym": "TCP/UDP",
@@ -3928,7 +4229,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The pair contrasts reliable, ordered connections with lightweight, connectionless packets."
   },
   {
     "acronym": "TFTP",
@@ -3938,7 +4240,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A minimal mechanism for moving boot images and device configurations, starting on UDP 69."
   },
   {
     "acronym": "TKIP",
@@ -3949,7 +4252,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The legacy WPA mechanism introduced as an improvement over WEP."
   },
   {
     "acronym": "TLS",
@@ -3968,7 +4272,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The modern cryptographic mechanism underlying encrypted websites and many other connections."
   },
   {
     "acronym": "TOC",
@@ -3979,7 +4284,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The moment a program verifies a condition, before later acting on it."
   },
   {
     "acronym": "TOE",
@@ -3990,7 +4296,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "The guide gives Target-of-Evaluation on page 250 and Time-of-Evaluation on page 265; both are retained here.",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "In the guide, either the item under assessment or the moment a decision is being assessed."
   },
   {
     "acronym": "TOS",
@@ -4000,7 +4307,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A hardened platform enforces strict policies and accountability for its users."
   },
   {
     "acronym": "TOU",
@@ -4011,7 +4319,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The moment a previously checked resource is actually acted upon."
   },
   {
     "acronym": "TPM",
@@ -4022,7 +4331,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A chip helps protect keys and attest to a computer's boot condition."
   },
   {
     "acronym": "TTP",
@@ -4035,7 +4345,8 @@ export const acronymCards = [
       "TTPs"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An adversary's recurring methods and behavior patterns."
   },
   {
     "acronym": "TTX",
@@ -4045,7 +4356,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Participants discuss how they would handle a simulated incident rather than staging a live drill."
   },
   {
     "acronym": "UAC",
@@ -4055,7 +4367,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The Windows prompt requiring approval before a task runs with elevated privileges."
   },
   {
     "acronym": "UBA",
@@ -4066,7 +4379,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Models people's typical activity to flag unusual patterns."
   },
   {
     "acronym": "UDP",
@@ -4082,7 +4396,8 @@ export const acronymCards = [
       "UDP-based"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A lightweight, connectionless packet mechanism without built-in ordered delivery or retries."
   },
   {
     "acronym": "UEBA",
@@ -4092,7 +4407,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Models typical activity of both people and devices to flag unusual patterns."
   },
   {
     "acronym": "UPS",
@@ -4105,7 +4421,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A battery-backed device keeps equipment running briefly when mains electricity fails."
   },
   {
     "acronym": "URI",
@@ -4117,7 +4434,8 @@ export const acronymCards = [
       "URIs"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A string names or addresses an item; web links are one familiar kind."
   },
   {
     "acronym": "URL",
@@ -4136,7 +4454,8 @@ export const acronymCards = [
       "URLs"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A web address specifying how and where to reach a page or other content."
   },
   {
     "acronym": "US",
@@ -4148,7 +4467,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The country whose federal agencies include NIST and NSA."
   },
   {
     "acronym": "USB",
@@ -4163,7 +4483,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A common wired connector and peripheral interface used for flash drives and keyboards."
   },
   {
     "acronym": "UTF-8",
@@ -4173,7 +4494,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A variable-length text encoding compatible with ASCII for its first 128 characters."
   },
   {
     "acronym": "UTM",
@@ -4185,7 +4507,8 @@ export const acronymCards = [
       "UTMs"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An appliance combines functions such as firewalling, malware scanning, and content filtering."
   },
   {
     "acronym": "VLAN",
@@ -4198,7 +4521,8 @@ export const acronymCards = [
       "VLANs"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A logical broadcast-domain separation on switched infrastructure."
   },
   {
     "acronym": "VM",
@@ -4212,7 +4536,8 @@ export const acronymCards = [
       "VMs"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A guest computer simulated on a host through a hypervisor."
   },
   {
     "acronym": "VoIP",
@@ -4222,7 +4547,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Carries telephone conversations as packets on a data network."
   },
   {
     "acronym": "VPC",
@@ -4232,7 +4558,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An isolated segment of a provider's hosted networking environment."
   },
   {
     "acronym": "VPN",
@@ -4256,7 +4583,8 @@ export const acronymCards = [
       "VPNs"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An encrypted tunnel connects a user or site across a less trusted connection."
   },
   {
     "acronym": "VUE",
@@ -4266,7 +4594,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": "https://www.pearsonvue.com/gb/en/about/vision.html"
+    "sourceUrl": "https://www.pearsonvue.com/gb/en/about/vision.html",
+    "hint": "The testing company named in the guide's exam-booking instructions."
   },
   {
     "acronym": "WAF",
@@ -4276,7 +4605,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Inspects browser requests and can block attacks such as injection and XSS."
   },
   {
     "acronym": "WAN",
@@ -4292,7 +4622,8 @@ export const acronymCards = [
       "WANs"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Connects geographically separated sites rather than devices in one building."
   },
   {
     "acronym": "WAP",
@@ -4306,7 +4637,8 @@ export const acronymCards = [
       "WAPs"
     ],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The device that bridges Wi-Fi clients onto a wired network."
   },
   {
     "acronym": "WEP",
@@ -4318,7 +4650,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An obsolete Wi-Fi protection method weakened by short initialization vectors and key reuse."
   },
   {
     "acronym": "WIDS",
@@ -4328,7 +4661,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A sensor detects suspicious radio-network activity and raises alerts."
   },
   {
     "acronym": "WPA",
@@ -4339,7 +4673,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The wireless LAN protection generation introduced after WEP and associated with TKIP."
   },
   {
     "acronym": "WPA2",
@@ -4349,7 +4684,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The wireless LAN protection generation associated with AES and CCMP."
   },
   {
     "acronym": "WPA3",
@@ -4361,7 +4697,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "The wireless LAN protection generation that introduces SAE to resist offline password guessing."
   },
   {
     "acronym": "XCCDF",
@@ -4373,7 +4710,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An XML-based way to express hardening benchmarks and their checks."
   },
   {
     "acronym": "XDR",
@@ -4383,7 +4721,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "Combines signals from multiple protective tools to investigate and contain threats across an environment."
   },
   {
     "acronym": "XML",
@@ -4399,7 +4738,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A tag-based syntax represents nested content and attributes."
   },
   {
     "acronym": "XOR",
@@ -4409,7 +4749,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A bitwise operation returns one when its inputs differ and zero when they match."
   },
   {
     "acronym": "XSRF",
@@ -4420,7 +4761,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An alternate acronym for tricking a logged-in browser into an unwanted action at another origin."
   },
   {
     "acronym": "XSS",
@@ -4435,7 +4777,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "An attacker injects script that runs in a victim browser under a trusted website origin."
   },
   {
     "acronym": "XXE",
@@ -4445,7 +4788,8 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A parser flaw can let crafted markup cause a server to read local files or make unintended requests."
   },
   {
     "acronym": "YAML",
@@ -4455,6 +4799,7 @@ export const acronymCards = [
     ],
     "aliases": [],
     "note": "",
-    "sourceUrl": ""
+    "sourceUrl": "",
+    "hint": "A human-friendly configuration syntax that often uses indentation to express nesting."
   }
 ];

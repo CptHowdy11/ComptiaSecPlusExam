@@ -9,6 +9,7 @@ export const portCards = [
 [88,'Kerberos','Kerberos (protocol name)','TCP / UDP','Ticket-based authentication. The guide lists UDP; TCP is also supported.'],
 [110,'POP3','Post Office Protocol version 3','TCP','Retrieves messages from a mail server.'],
 [119,'NNTP','Network News Transfer Protocol','TCP','Reads, posts, and distributes newsgroup articles.'],
+[123,'NTP','Network Time Protocol','UDP','Synchronizes computer and network-device clocks with time servers. Accurate clocks support consistent event logs and time-sensitive authentication.','https://www.rfc-editor.org/info/rfc5905/'],
 [135,'RPC','Remote Procedure Call','TCP / UDP','Maps endpoints so clients can locate remote services; later calls may use other ports.'],
 [137,'NetBIOS name service','Network Basic Input/Output System','TCP / UDP','Registers and resolves legacy network names; commonly uses UDP.'],
 [138,'NetBIOS datagram service','Network Basic Input/Output System','UDP','Sends connectionless datagrams for legacy network applications.'],
@@ -20,7 +21,9 @@ export const portCards = [
 [443,'HTTPS','Hypertext Transfer Protocol Secure','TCP','Encrypted web communication using Transport Layer Security (TLS). Modern HTTP/3 also uses UDP 443; the guide lists TCP.'],
 [445,'SMB','Server Message Block','TCP','Shares files, printers, and network resources.'],
 [465,'SMTPS','Simple Mail Transfer Protocol over Transport Layer Security (TLS)','TCP','Submits email with encryption established immediately (implicit TLS).'],
+[500,'IKE / ISAKMP','Internet Key Exchange / Internet Security Association and Key Management Protocol','UDP','Negotiates authentication, keys, and security associations for Internet Protocol Security (IPsec) connections. This is the setup exchange, not the encrypted application traffic.','https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-ikee/93288c7a-0e71-45b7-b282-a1cb3dfeb725'],
 [514,'Syslog','Syslog (system logging)','UDP','Sends event logs to a collector without built-in transport encryption.'],
+[515,'LPD / LPR','Line Printer Daemon / Line Printer Remote','TCP','Submits print jobs to a network print queue using the line printer protocol. Supported by Windows and other operating systems; not exclusive to Windows printing.','https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/service-overview-and-network-port-requirements'],
 [587,'SMTP submission','Simple Mail Transfer Protocol','TCP','Submits outgoing mail. STARTTLS upgrades the connection to Transport Layer Security (TLS), unlike implicit TLS on 465.'],
 [636,'LDAPS','Lightweight Directory Access Protocol over Transport Layer Security (TLS)','TCP','Encrypted directory access.'],
 [993,'IMAPS','Internet Message Access Protocol over Transport Layer Security (TLS)','TCP','Encrypted mailbox access and synchronization.'],
@@ -32,13 +35,15 @@ export const portCards = [
 [1813,'RADIUS accounting','Remote Authentication Dial In User Service','UDP','Records network-access sessions and usage.'],
 [3389,'RDP','Remote Desktop Protocol','TCP / UDP','Remote graphical desktop access. The guide lists TCP; modern implementations also use UDP.'],
 [6514,'Syslog over TLS','Syslog over Transport Layer Security','TCP','Sends logs to a collector through an encrypted connection.']
-].map(([port,protocol,fullName,transport,purpose])=>({port,protocol,fullName,transport,purpose,page:port<=143?207:208}));
+].map(([port,protocol,fullName,transport,purpose,sourceUrl])=>({port,protocol,fullName,transport,purpose,sourceUrl,page:sourceUrl?null:port<=143?207:208}));
 export const transportNames={TCP:'Transmission Control Protocol',UDP:'User Datagram Protocol','TCP / UDP':'Transmission Control Protocol / User Datagram Protocol'};
 export const portSources=[
+['NTP: clock synchronization on UDP 123','https://www.rfc-editor.org/info/rfc5905/'],
 ['Port registry','https://www.iana.org/assignments/service-names-port-numbers'],
 ['Protocol names','https://www.rfc-editor.org/info/rfc2000/'],
 ['Transport and NetBIOS names','https://www.rfc-editor.org/rfc/rfc2151'],
 ['Secure file transfer','https://www.openssh.org/specs.html'],
+['IKE transport: UDP 500','https://learn.microsoft.com/en-us/openspecs/windows_protocols/ms-ikee/93288c7a-0e71-45b7-b282-a1cb3dfeb725'],
 ['Windows services','https://learn.microsoft.com/en-us/troubleshoot/windows-server/networking/service-overview-and-network-port-requirements'],
 ['Email encryption','https://www.rfc-editor.org/info/rfc8314/'],
 ['RADIUS authentication','https://www.rfc-editor.org/info/rfc2865/'],

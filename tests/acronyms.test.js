@@ -59,3 +59,34 @@ test('ambiguous guide meanings are retained together',()=>{
   assert.match(card('TOE').fullName,/Target of Evaluation; Time-of-Evaluation/);
   assert.match(card('CD').fullName,/Delivery; Continuous Deployment/);
 });
+
+test('every card has a concise hint without words from its expansion',()=>{
+  const stop=new Set('a an and the of for to in on or as with by at from over using also called s is its i it per via'.split(' '));
+  const words=s=>(s.toLowerCase().match(/[a-z]+/g)||[]).filter(w=>!stop.has(w));
+  for(const c of acronymCards){
+    assert.ok(typeof c.hint==='string'&&c.hint.length>20&&c.hint.length<=190,c.acronym);
+    const answer=new Set(words(c.fullName));
+    assert.deepEqual(words(c.hint).filter(w=>answer.has(w)),[],c.acronym+' reveals an answer word');
+  }
+});
+test('hint can be toggled without flipping or exposing the answer',()=>{
+  const deck=newAcronymDeck();updateAcronymDeck(deck,'search','GPO');
+  const c=deck.cards[0];
+  assert.equal(deck.hintVisible,false);assert.ok(!renderAcronyms(deck).includes(c.hint));
+  updateAcronymDeck(deck,'hint');
+  assert.equal(deck.flipped,false);assert.equal(deck.hintVisible,true);
+  assert.match(renderAcronyms(deck),/aria-expanded="true"/);
+  assert.ok(renderAcronyms(deck).includes(c.hint));
+  assert.ok(!renderAcronyms(deck).includes(c.fullName));
+  updateAcronymDeck(deck,'hint');assert.ok(!renderAcronyms(deck).includes(c.hint));
+});
+test('hint resets on navigation, shuffle, search, reset, and either flip direction',()=>{
+  for(const action of ['next','prev','shuffle','search','reset','flip']){
+    const deck=newAcronymDeck();updateAcronymDeck(deck,'hint');updateAcronymDeck(deck,action);
+    assert.equal(deck.hintVisible,false,action);
+  }
+  const deck=newAcronymDeck();updateAcronymDeck(deck,'flip');updateAcronymDeck(deck,'hint');
+  assert.equal(deck.hintVisible,false);assert.ok(!renderAcronyms(deck).includes('data-action="acronym-hint"'));
+  updateAcronymDeck(deck,'flip');assert.equal(deck.hintVisible,false);
+  updateAcronymDeck(deck,'search','nonexistent');updateAcronymDeck(deck,'hint');assert.equal(deck.hintVisible,false);
+});
